@@ -1,7 +1,7 @@
 #include "ObjectBase.hpp"
 #include "GameManager.hpp"
 
-ObjectBase::ObjectBase(int imageID, int x, int y, LayerID layer, int width, int height, AnimID animID)
+ObjectBase::ObjectBase(ImageID imageID, int x, int y, LayerID layer, int width, int height, AnimID animID)
   : m_imageID(imageID), m_x(x), m_y(y), m_layer(layer), m_width(width), m_height(height), m_animID(animID), m_currentFrame(0) {
   GetObjects(m_layer).insert(this);
 }

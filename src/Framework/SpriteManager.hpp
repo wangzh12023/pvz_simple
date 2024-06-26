@@ -14,6 +14,7 @@
 #include "utils.hpp"
 
 
+
 struct SpriteInfo {
 public:
   SpriteInfo(std::string filename_, int totalWidth_, int totalHeight_, int spriteWidth_, int spriteHeight_, int cols_ = 1, int frames_ = 1)

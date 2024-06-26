@@ -294,6 +294,30 @@ WorldBase.cpp.s:
 	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build && $(MAKE) $(MAKESILENT) -f src\Framework\CMakeFiles\Framework.dir\build.make src/Framework/CMakeFiles/Framework.dir/WorldBase.cpp.s
 .PHONY : WorldBase.cpp.s
 
+__/GameWorld/GameWorld.obj: __/GameWorld/GameWorld.cpp.obj
+.PHONY : __/GameWorld/GameWorld.obj
+
+# target to build an object file
+__/GameWorld/GameWorld.cpp.obj:
+	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build && $(MAKE) $(MAKESILENT) -f src\Framework\CMakeFiles\Framework.dir\build.make src/Framework/CMakeFiles/Framework.dir/__/GameWorld/GameWorld.cpp.obj
+.PHONY : __/GameWorld/GameWorld.cpp.obj
+
+__/GameWorld/GameWorld.i: __/GameWorld/GameWorld.cpp.i
+.PHONY : __/GameWorld/GameWorld.i
+
+# target to preprocess a source file
+__/GameWorld/GameWorld.cpp.i:
+	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build && $(MAKE) $(MAKESILENT) -f src\Framework\CMakeFiles\Framework.dir\build.make src/Framework/CMakeFiles/Framework.dir/__/GameWorld/GameWorld.cpp.i
+.PHONY : __/GameWorld/GameWorld.cpp.i
+
+__/GameWorld/GameWorld.s: __/GameWorld/GameWorld.cpp.s
+.PHONY : __/GameWorld/GameWorld.s
+
+# target to generate assembly for a file
+__/GameWorld/GameWorld.cpp.s:
+	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build && $(MAKE) $(MAKESILENT) -f src\Framework\CMakeFiles\Framework.dir\build.make src/Framework/CMakeFiles/Framework.dir/__/GameWorld/GameWorld.cpp.s
+.PHONY : __/GameWorld/GameWorld.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -322,6 +346,9 @@ help:
 	@echo ... WorldBase.obj
 	@echo ... WorldBase.i
 	@echo ... WorldBase.s
+	@echo ... __/GameWorld/GameWorld.obj
+	@echo ... __/GameWorld/GameWorld.i
+	@echo ... __/GameWorld/GameWorld.s
 .PHONY : help
 
 

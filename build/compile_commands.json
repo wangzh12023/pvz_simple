@@ -516,10 +516,22 @@
   "output": "src/Framework/CMakeFiles/Framework.dir/SpriteManager.cpp.obj"
 },
 {
+  "directory": "D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/build/src/Framework",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/Framework.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\Framework.dir\\__\\GameWorld\\GameWorld.cpp.obj -c D:\\Wangzh\\p2\\cs\\skd_courses\\CS100\\HW\\hw8\\tar_1(2)\\src\\GameWorld\\GameWorld.cpp",
+  "file": "D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameWorld/GameWorld.cpp",
+  "output": "src/Framework/CMakeFiles/Framework.dir/__/GameWorld/GameWorld.cpp.obj"
+},
+{
   "directory": "D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/build/src/GameObject",
   "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/GameObject.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GameObject.dir\\GameObject.cpp.obj -c D:\\Wangzh\\p2\\cs\\skd_courses\\CS100\\HW\\hw8\\tar_1(2)\\src\\GameObject\\GameObject.cpp",
   "file": "D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/GameObject.cpp",
   "output": "src/GameObject/CMakeFiles/GameObject.dir/GameObject.cpp.obj"
+},
+{
+  "directory": "D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/build/src/GameObject",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/GameObject.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GameObject.dir\\BackgroundObject.cpp.obj -c D:\\Wangzh\\p2\\cs\\skd_courses\\CS100\\HW\\hw8\\tar_1(2)\\src\\GameObject\\BackgroundObject.cpp",
+  "file": "D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/BackgroundObject.cpp",
+  "output": "src/GameObject/CMakeFiles/GameObject.dir/BackgroundObject.cpp.obj"
 },
 {
   "directory": "D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/build/src/GameWorld",

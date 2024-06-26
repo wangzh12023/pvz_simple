@@ -1,5 +1,7 @@
-CMakeFiles/PvZ.dir/src/main.cpp.obj: \
- D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\src\main.cpp \
+src/GameObject/CMakeFiles/GameObject.dir/BackgroundObject.cpp.obj: \
+ D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\src\GameObject\BackgroundObject.cpp \
+ D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\src\GameObject\BackgroundObject.hpp \
+ D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\src\GameObject\GameObject.hpp \
  C:/mingw64/include/c++/13.2.0/memory \
  C:/mingw64/include/c++/13.2.0/bits/memoryfwd.h \
  C:/mingw64/include/c++/13.2.0/x86_64-w64-mingw32/bits/c++config.h \
@@ -106,7 +108,6 @@ CMakeFiles/PvZ.dir/src/main.cpp.obj: \
  C:/mingw64/include/c++/13.2.0/backward/auto_ptr.h \
  C:/mingw64/include/c++/13.2.0/pstl/glue_memory_defs.h \
  C:/mingw64/include/c++/13.2.0/pstl/execution_defs.h \
- D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/Framework/GameManager.hpp \
  D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/Framework/ObjectBase.hpp \
  C:/mingw64/include/c++/13.2.0/iostream \
  C:/mingw64/include/c++/13.2.0/ostream C:/mingw64/include/c++/13.2.0/ios \
@@ -196,18 +197,4 @@ CMakeFiles/PvZ.dir/src/main.cpp.obj: \
  C:/mingw64/include/c++/13.2.0/bits/random.tcc \
  C:/mingw64/include/c++/13.2.0/numeric \
  C:/mingw64/include/c++/13.2.0/bits/stl_numeric.h \
- C:/mingw64/include/c++/13.2.0/pstl/glue_numeric_defs.h \
- D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/Framework/WorldBase.hpp \
- C:/mingw64/include/c++/13.2.0/map \
- C:/mingw64/include/c++/13.2.0/bits/stl_map.h \
- C:/mingw64/include/c++/13.2.0/bits/stl_multimap.h \
- D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameWorld/GameWorld.hpp \
- C:/mingw64/include/c++/13.2.0/list \
- C:/mingw64/include/c++/13.2.0/bits/stl_list.h \
- C:/mingw64/include/c++/13.2.0/bits/list.tcc \
- D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/GameObject.hpp \
- D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/Framework/ObjectBase.hpp \
- D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/Framework/WorldBase.hpp \
- D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/Framework/TextBase.hpp \
- D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/BackgroundObject.hpp \
- D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/GameObject.hpp
+ C:/mingw64/include/c++/13.2.0/pstl/glue_numeric_defs.h

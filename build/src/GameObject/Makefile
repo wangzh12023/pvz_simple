@@ -174,6 +174,30 @@ GameObject/fast:
 	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build && $(MAKE) $(MAKESILENT) -f src\GameObject\CMakeFiles\GameObject.dir\build.make src/GameObject/CMakeFiles/GameObject.dir/build
 .PHONY : GameObject/fast
 
+BackgroundObject.obj: BackgroundObject.cpp.obj
+.PHONY : BackgroundObject.obj
+
+# target to build an object file
+BackgroundObject.cpp.obj:
+	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build && $(MAKE) $(MAKESILENT) -f src\GameObject\CMakeFiles\GameObject.dir\build.make src/GameObject/CMakeFiles/GameObject.dir/BackgroundObject.cpp.obj
+.PHONY : BackgroundObject.cpp.obj
+
+BackgroundObject.i: BackgroundObject.cpp.i
+.PHONY : BackgroundObject.i
+
+# target to preprocess a source file
+BackgroundObject.cpp.i:
+	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build && $(MAKE) $(MAKESILENT) -f src\GameObject\CMakeFiles\GameObject.dir\build.make src/GameObject/CMakeFiles/GameObject.dir/BackgroundObject.cpp.i
+.PHONY : BackgroundObject.cpp.i
+
+BackgroundObject.s: BackgroundObject.cpp.s
+.PHONY : BackgroundObject.s
+
+# target to generate assembly for a file
+BackgroundObject.cpp.s:
+	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build && $(MAKE) $(MAKESILENT) -f src\GameObject\CMakeFiles\GameObject.dir\build.make src/GameObject/CMakeFiles/GameObject.dir/BackgroundObject.cpp.s
+.PHONY : BackgroundObject.cpp.s
+
 GameObject.obj: GameObject.cpp.obj
 .PHONY : GameObject.obj
 
@@ -211,6 +235,9 @@ help:
 	@echo ... list_install_components
 	@echo ... rebuild_cache
 	@echo ... GameObject
+	@echo ... BackgroundObject.obj
+	@echo ... BackgroundObject.i
+	@echo ... BackgroundObject.s
 	@echo ... GameObject.obj
 	@echo ... GameObject.i
 	@echo ... GameObject.s

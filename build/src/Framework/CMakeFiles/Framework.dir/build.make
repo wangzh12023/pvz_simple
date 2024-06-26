@@ -143,13 +143,29 @@ src/Framework/CMakeFiles/Framework.dir/SpriteManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Framework.dir/SpriteManager.cpp.s"
 	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build\src\Framework && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\src\Framework\SpriteManager.cpp -o CMakeFiles\Framework.dir\SpriteManager.cpp.s
 
+src/Framework/CMakeFiles/Framework.dir/__/GameWorld/GameWorld.cpp.obj: src/Framework/CMakeFiles/Framework.dir/flags.make
+src/Framework/CMakeFiles/Framework.dir/__/GameWorld/GameWorld.cpp.obj: src/Framework/CMakeFiles/Framework.dir/includes_CXX.rsp
+src/Framework/CMakeFiles/Framework.dir/__/GameWorld/GameWorld.cpp.obj: D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameWorld/GameWorld.cpp
+src/Framework/CMakeFiles/Framework.dir/__/GameWorld/GameWorld.cpp.obj: src/Framework/CMakeFiles/Framework.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/Framework/CMakeFiles/Framework.dir/__/GameWorld/GameWorld.cpp.obj"
+	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build\src\Framework && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/Framework/CMakeFiles/Framework.dir/__/GameWorld/GameWorld.cpp.obj -MF CMakeFiles\Framework.dir\__\GameWorld\GameWorld.cpp.obj.d -o CMakeFiles\Framework.dir\__\GameWorld\GameWorld.cpp.obj -c D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\src\GameWorld\GameWorld.cpp
+
+src/Framework/CMakeFiles/Framework.dir/__/GameWorld/GameWorld.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Framework.dir/__/GameWorld/GameWorld.cpp.i"
+	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build\src\Framework && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\src\GameWorld\GameWorld.cpp > CMakeFiles\Framework.dir\__\GameWorld\GameWorld.cpp.i
+
+src/Framework/CMakeFiles/Framework.dir/__/GameWorld/GameWorld.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Framework.dir/__/GameWorld/GameWorld.cpp.s"
+	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build\src\Framework && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\src\GameWorld\GameWorld.cpp -o CMakeFiles\Framework.dir\__\GameWorld\GameWorld.cpp.s
+
 # Object files for target Framework
 Framework_OBJECTS = \
 "CMakeFiles/Framework.dir/ObjectBase.cpp.obj" \
 "CMakeFiles/Framework.dir/WorldBase.cpp.obj" \
 "CMakeFiles/Framework.dir/TextBase.cpp.obj" \
 "CMakeFiles/Framework.dir/GameManager.cpp.obj" \
-"CMakeFiles/Framework.dir/SpriteManager.cpp.obj"
+"CMakeFiles/Framework.dir/SpriteManager.cpp.obj" \
+"CMakeFiles/Framework.dir/__/GameWorld/GameWorld.cpp.obj"
 
 # External object files for target Framework
 Framework_EXTERNAL_OBJECTS =
@@ -159,9 +175,10 @@ lib/libFramework.a: src/Framework/CMakeFiles/Framework.dir/WorldBase.cpp.obj
 lib/libFramework.a: src/Framework/CMakeFiles/Framework.dir/TextBase.cpp.obj
 lib/libFramework.a: src/Framework/CMakeFiles/Framework.dir/GameManager.cpp.obj
 lib/libFramework.a: src/Framework/CMakeFiles/Framework.dir/SpriteManager.cpp.obj
+lib/libFramework.a: src/Framework/CMakeFiles/Framework.dir/__/GameWorld/GameWorld.cpp.obj
 lib/libFramework.a: src/Framework/CMakeFiles/Framework.dir/build.make
 lib/libFramework.a: src/Framework/CMakeFiles/Framework.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library ..\..\lib\libFramework.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX static library ..\..\lib\libFramework.a"
 	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build\src\Framework && $(CMAKE_COMMAND) -P CMakeFiles\Framework.dir\cmake_clean_target.cmake
 	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build\src\Framework && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Framework.dir\link.txt --verbose=$(VERBOSE)
 

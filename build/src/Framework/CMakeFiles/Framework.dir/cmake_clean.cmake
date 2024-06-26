@@ -11,6 +11,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Framework.dir/TextBase.cpp.obj.d"
   "CMakeFiles/Framework.dir/WorldBase.cpp.obj"
   "CMakeFiles/Framework.dir/WorldBase.cpp.obj.d"
+  "CMakeFiles/Framework.dir/__/GameWorld/GameWorld.cpp.obj"
+  "CMakeFiles/Framework.dir/__/GameWorld/GameWorld.cpp.obj.d"
 )
 
 # Per-language clean rules from dependency scanning.

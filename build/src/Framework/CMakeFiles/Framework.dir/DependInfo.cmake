@@ -13,6 +13,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/Framework/SpriteManager.cpp" "src/Framework/CMakeFiles/Framework.dir/SpriteManager.cpp.obj" "gcc" "src/Framework/CMakeFiles/Framework.dir/SpriteManager.cpp.obj.d"
   "D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/Framework/TextBase.cpp" "src/Framework/CMakeFiles/Framework.dir/TextBase.cpp.obj" "gcc" "src/Framework/CMakeFiles/Framework.dir/TextBase.cpp.obj.d"
   "D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/Framework/WorldBase.cpp" "src/Framework/CMakeFiles/Framework.dir/WorldBase.cpp.obj" "gcc" "src/Framework/CMakeFiles/Framework.dir/WorldBase.cpp.obj.d"
+  "D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameWorld/GameWorld.cpp" "src/Framework/CMakeFiles/Framework.dir/__/GameWorld/GameWorld.cpp.obj" "gcc" "src/Framework/CMakeFiles/Framework.dir/__/GameWorld/GameWorld.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

@@ -5,6 +5,8 @@ add_library(
   STATIC
   GameObject.hpp
   GameObject.cpp
+  BackgroundObject.hpp
+  BackgroundObject.cpp
 )
 
 target_link_libraries(
@@ -19,4 +21,5 @@ target_include_directories(
   ${CMAKE_SOURCE_DIR}/src/Framework/
   ${CMAKE_SOURCE_DIR}/src/GameWorld/
   ${CMAKE_SOURCE_DIR}/src/GameObject/
+
 )

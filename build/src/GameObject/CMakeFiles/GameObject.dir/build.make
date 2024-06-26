@@ -83,17 +83,34 @@ src/GameObject/CMakeFiles/GameObject.dir/GameObject.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GameObject.dir/GameObject.cpp.s"
 	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build\src\GameObject && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\src\GameObject\GameObject.cpp -o CMakeFiles\GameObject.dir\GameObject.cpp.s
 
+src/GameObject/CMakeFiles/GameObject.dir/BackgroundObject.cpp.obj: src/GameObject/CMakeFiles/GameObject.dir/flags.make
+src/GameObject/CMakeFiles/GameObject.dir/BackgroundObject.cpp.obj: src/GameObject/CMakeFiles/GameObject.dir/includes_CXX.rsp
+src/GameObject/CMakeFiles/GameObject.dir/BackgroundObject.cpp.obj: D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/BackgroundObject.cpp
+src/GameObject/CMakeFiles/GameObject.dir/BackgroundObject.cpp.obj: src/GameObject/CMakeFiles/GameObject.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/GameObject/CMakeFiles/GameObject.dir/BackgroundObject.cpp.obj"
+	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build\src\GameObject && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/GameObject/CMakeFiles/GameObject.dir/BackgroundObject.cpp.obj -MF CMakeFiles\GameObject.dir\BackgroundObject.cpp.obj.d -o CMakeFiles\GameObject.dir\BackgroundObject.cpp.obj -c D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\src\GameObject\BackgroundObject.cpp
+
+src/GameObject/CMakeFiles/GameObject.dir/BackgroundObject.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GameObject.dir/BackgroundObject.cpp.i"
+	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build\src\GameObject && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\src\GameObject\BackgroundObject.cpp > CMakeFiles\GameObject.dir\BackgroundObject.cpp.i
+
+src/GameObject/CMakeFiles/GameObject.dir/BackgroundObject.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GameObject.dir/BackgroundObject.cpp.s"
+	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build\src\GameObject && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\src\GameObject\BackgroundObject.cpp -o CMakeFiles\GameObject.dir\BackgroundObject.cpp.s
+
 # Object files for target GameObject
 GameObject_OBJECTS = \
-"CMakeFiles/GameObject.dir/GameObject.cpp.obj"
+"CMakeFiles/GameObject.dir/GameObject.cpp.obj" \
+"CMakeFiles/GameObject.dir/BackgroundObject.cpp.obj"
 
 # External object files for target GameObject
 GameObject_EXTERNAL_OBJECTS =
 
 lib/libGameObject.a: src/GameObject/CMakeFiles/GameObject.dir/GameObject.cpp.obj
+lib/libGameObject.a: src/GameObject/CMakeFiles/GameObject.dir/BackgroundObject.cpp.obj
 lib/libGameObject.a: src/GameObject/CMakeFiles/GameObject.dir/build.make
 lib/libGameObject.a: src/GameObject/CMakeFiles/GameObject.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library ..\..\lib\libGameObject.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library ..\..\lib\libGameObject.a"
 	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build\src\GameObject && $(CMAKE_COMMAND) -P CMakeFiles\GameObject.dir\cmake_clean_target.cmake
 	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build\src\GameObject && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\GameObject.dir\link.txt --verbose=$(VERBOSE)
 

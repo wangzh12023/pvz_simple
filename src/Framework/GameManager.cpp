@@ -22,6 +22,8 @@ static void keyboardUpEventCallback(unsigned char key, int x, int y) {
   GameManager::Instance().KeyUpEvent(key, x, y);
 }
 
+
+
 static void specialKeyboardDownEventCallback(int key, int x, int y) {
   GameManager::Instance().SpecialKeyDownEvent(key, x, y);
 }

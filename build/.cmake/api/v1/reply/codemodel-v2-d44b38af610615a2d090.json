@@ -161,14 +161,14 @@
 				{
 					"directoryIndex" : 3,
 					"id" : "Framework::@bbcc00d4dd4c98727359",
-					"jsonFile" : "target-Framework-Debug-650e411085289618f0c5.json",
+					"jsonFile" : "target-Framework-Debug-e26992b8574d27a7909d.json",
 					"name" : "Framework",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 4,
 					"id" : "GameObject::@cf4d02a5657504c132a7",
-					"jsonFile" : "target-GameObject-Debug-cea0b57499dce3e9a2d7.json",
+					"jsonFile" : "target-GameObject-Debug-9709c05d596c577cc546.json",
 					"name" : "GameObject",
 					"projectIndex" : 0
 				},
@@ -182,7 +182,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "PvZ::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-PvZ-Debug-bfd3b386103faeb72232.json",
+					"jsonFile" : "target-PvZ-Debug-3724f64184a3e2bcd9e6.json",
 					"name" : "PvZ",
 					"projectIndex" : 0
 				},

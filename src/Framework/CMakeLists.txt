@@ -19,6 +19,8 @@ add_library(
   GameManager.cpp
   SpriteManager.hpp
   SpriteManager.cpp
+  ../GameWorld/GameWorld.hpp
+  ../GameWorld/GameWorld.cpp
   ${CMAKE_SOURCE_DIR}/src/utils.hpp
 )
 
