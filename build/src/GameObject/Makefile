@@ -222,6 +222,30 @@ GameObject.cpp.s:
 	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build && $(MAKE) $(MAKESILENT) -f src\GameObject\CMakeFiles\GameObject.dir\build.make src/GameObject/CMakeFiles/GameObject.dir/GameObject.cpp.s
 .PHONY : GameObject.cpp.s
 
+PlantsSeedObject.obj: PlantsSeedObject.cpp.obj
+.PHONY : PlantsSeedObject.obj
+
+# target to build an object file
+PlantsSeedObject.cpp.obj:
+	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build && $(MAKE) $(MAKESILENT) -f src\GameObject\CMakeFiles\GameObject.dir\build.make src/GameObject/CMakeFiles/GameObject.dir/PlantsSeedObject.cpp.obj
+.PHONY : PlantsSeedObject.cpp.obj
+
+PlantsSeedObject.i: PlantsSeedObject.cpp.i
+.PHONY : PlantsSeedObject.i
+
+# target to preprocess a source file
+PlantsSeedObject.cpp.i:
+	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build && $(MAKE) $(MAKESILENT) -f src\GameObject\CMakeFiles\GameObject.dir\build.make src/GameObject/CMakeFiles/GameObject.dir/PlantsSeedObject.cpp.i
+.PHONY : PlantsSeedObject.cpp.i
+
+PlantsSeedObject.s: PlantsSeedObject.cpp.s
+.PHONY : PlantsSeedObject.s
+
+# target to generate assembly for a file
+PlantsSeedObject.cpp.s:
+	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build && $(MAKE) $(MAKESILENT) -f src\GameObject\CMakeFiles\GameObject.dir\build.make src/GameObject/CMakeFiles/GameObject.dir/PlantsSeedObject.cpp.s
+.PHONY : PlantsSeedObject.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -241,6 +265,9 @@ help:
 	@echo ... GameObject.obj
 	@echo ... GameObject.i
 	@echo ... GameObject.s
+	@echo ... PlantsSeedObject.obj
+	@echo ... PlantsSeedObject.i
+	@echo ... PlantsSeedObject.s
 .PHONY : help
 
 

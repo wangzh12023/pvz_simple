@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/GameObject.dir/BackgroundObject.cpp.obj.d"
   "CMakeFiles/GameObject.dir/GameObject.cpp.obj"
   "CMakeFiles/GameObject.dir/GameObject.cpp.obj.d"
+  "CMakeFiles/GameObject.dir/PlantsSeedObject.cpp.obj"
+  "CMakeFiles/GameObject.dir/PlantsSeedObject.cpp.obj.d"
 )
 
 # Per-language clean rules from dependency scanning.

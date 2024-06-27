@@ -206,6 +206,7 @@ src/GameWorld/CMakeFiles/GameWorld.dir/GameWorld.cpp.obj: D:/Wangzh/p2/cs/skd_co
   D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/Framework/WorldBase.hpp \
   D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/BackgroundObject.hpp \
   D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/GameObject.hpp \
+  D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/PlantsSeedObject.hpp \
   D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/utils.hpp \
   D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameWorld/GameWorld.hpp
 
@@ -433,6 +434,8 @@ C:/mingw64/include/c++/13.2.0/bits/shared_ptr.h:
 C:/mingw64/include/c++/13.2.0/bits/cxxabi_init_exception.h:
 
 C:/mingw64/include/c++/13.2.0/limits:
+
+D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/PlantsSeedObject.hpp:
 
 C:/mingw64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h:
 

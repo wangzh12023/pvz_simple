@@ -1631,6 +1631,7 @@ src/Framework/CMakeFiles/Framework.dir/__/GameWorld/GameWorld.cpp.obj: D:/Wangzh
   D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/Framework/WorldBase.hpp \
   D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/BackgroundObject.hpp \
   D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/GameObject.hpp \
+  D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/PlantsSeedObject.hpp \
   D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/utils.hpp \
   D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameWorld/GameWorld.hpp
 
@@ -2186,6 +2187,8 @@ C:/mingw64/include/c++/13.2.0/bits/basic_string.h:
 C:/mingw64/include/c++/13.2.0/bits/hashtable.h:
 
 C:/mingw64/include/c++/13.2.0/tr1/hypergeometric.tcc:
+
+D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/PlantsSeedObject.hpp:
 
 C:/mingw64/x86_64-w64-mingw32/include/fltwinerror.h:
 
