@@ -128,9 +128,9 @@ const int REPEATER_COOLDOWN = 2000;
 const int SUN_START = 5000;
 const int SUN_TEXT_X = 50;
 const int SUN_TEXT_Y = WINDOW_HEIGHT - 50;
-const int SUN_GENERATE_SPEED = 3;
+const int SUN_GENERATE_SPEED = 5;
 const int SUN_FALL_MS_PER_FRAME = 2 ;
-
+const int SUN_COOL_TIME = 10;
 const int SUN_WIDTH = 80;
 const int SUN_HEIGHT = 80;
 

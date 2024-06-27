@@ -15,6 +15,7 @@ public:
 private:
   pGameWorld m_gameWorld;
   PlantsType m_type;
+  double m_coolTime = 0;
   
 };
 
