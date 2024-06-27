@@ -1,5 +1,7 @@
 #include "GameWorld.hpp"
 #include <iostream>
+#include <cmath>
+#include <string>
 
 GameWorld::GameWorld() {}
 
@@ -19,6 +21,8 @@ void GameWorld::Init() {
   auto m_RepeaterSeed = std::make_shared<PlantsSeedObject>(IMGID_SEED_REPEATER, FIRST_SEED_COL_CENTER + 4 * SEED_WIDTH, SEED_ROW_CENTER,
                 LAYER_UI, SEED_WIDTH, SEED_HEIGHT, ANIMID_NO_ANIMATION, SUN_COST_REPEATER, REPEATER_COOLDOWN, PlantsType::REPEATER, shared_from_this());
   auto m_Shovel = std::make_shared<ShovelObject>(IMGID_SHOVEL, SHOVEL_X, SHOVEL_Y, LAYER_UI, SHOVEL_WIDTH, SHOVEL_HEIGHT, ANIMID_NO_ANIMATION, shared_from_this());
+  auto m_SunText = std::make_shared<TextBase>(SUN_TEXT_X, SUN_TEXT_Y, std::to_string(SUN_START), 0,0,0);
+  
   m_GameList.push_back(m_Background);
   m_GameList.push_back(m_SunFlowerSeed);
   m_GameList.push_back(m_PeaShooterSeed);
@@ -26,6 +30,8 @@ void GameWorld::Init() {
   m_GameList.push_back(m_CherryBombSeed);
   m_GameList.push_back(m_RepeaterSeed);
   m_GameList.push_back(m_Shovel);
+  m_GameList.push_back(m_SunText);
+
   for (int i = 0; i < GAME_ROWS; i++) {
     for(int j =0; j < GAME_COLS; j++) {
       auto m_plantingPos = std::make_shared<PlantingPosObject>(IMGID_NONE, FIRST_ROW_CENTER + j * LAWN_GRID_WIDTH, FIRST_COL_CENTER + i * LAWN_GRID_HEIGHT, LAYER_UI, LAWN_GRID_WIDTH, LAWN_GRID_HEIGHT, ANIMID_NO_ANIMATION, shared_from_this());

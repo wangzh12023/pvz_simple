@@ -122,7 +122,8 @@ const int WALLNUT_COOLDOWN = 5000;
 const int CHERRY_BOMB_COOLDOWN = 5000;
 const int REPEATER_COOLDOWN = 2000;
 
-
-
+const int SUN_START = 50;
+const int SUN_TEXT_X = 50;
+const int SUN_TEXT_Y = WINDOW_HEIGHT - 50;
 
 #endif // !UTILS_HPP__
