@@ -24,7 +24,7 @@ public:
   int GetY() const;
   int GetWidth() const;
   int GetHeight() const;
-
+  LayerID GetLayer() const;
   void MoveTo(int x, int y);
   
   AnimID GetCurrentAnimation() const;

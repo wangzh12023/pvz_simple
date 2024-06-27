@@ -44,34 +44,34 @@ LevelStatus GameWorld::Update() {
 void GameWorld::CleanUp() {
   // YOUR CODE HERE
 }
-void GameWorld::ChangeGameObject(PlantsType choosingType, int x, int y) {
-  if (choosingType == PlantsType::NONE) return;
-  else if (choosingType == PlantsType::SHOVEL) {
-    RemoveGameObject(x, y);
-    m_PlantTypeChoosingNow = PlantsType::NONE;
-  }
-  else AddGameObject(choosingType, x, y);
-}
+// void GameWorld::ChangeGameObject(PlantsType choosingType, int x, int y) {
+//   if (choosingType == PlantsType::NONE) return;
+//   else if (choosingType == PlantsType::SHOVEL) {
+//     RemoveGameObject(x, y);
+//     m_PlantTypeChoosingNow = PlantsType::NONE;
+//   }
+//   else AddGameObject(choosingType, x, y);
+// }
 void GameWorld::AddGameObject(PlantsType type, int x, int y) {
   if (type == PlantsType::NONE || type == PlantsType::SHOVEL) return;
-  if (IsPlanted(x, y)){
-    m_PlantTypeChoosingNow = PlantsType::NONE;
-    return;
-  }
+
   ImageID plantId = ChangePlantsTypeToImageID(type);
-  auto plant = std::make_shared<PlantsObject>(plantId, x, y, LAYER_PLANTS, LAWN_GRID_WIDTH, LAWN_GRID_HEIGHT, ANIMID_IDLE_ANIM);
+  auto plant = std::make_shared<PlantsObject>(plantId, x, y, LAYER_PLANTS, LAWN_GRID_WIDTH, LAWN_GRID_HEIGHT, ANIMID_IDLE_ANIM, shared_from_this(), type);
   m_GameList.push_back(plant);
   m_PlantTypeChoosingNow = PlantsType::NONE;
 }
 
-void GameWorld::RemoveGameObject(int x, int y){
+void GameWorld::RemoveGameObject(PlantsType type, int x, int y){
   // YOUR CODE HERE
+  if (type != PlantsType::SHOVEL) return;
   for (auto it = m_GameList.begin(); it != m_GameList.end(); it++) {
-    if (it->get()->GetX() == x && it->get()->GetY() == y){
+    if ((std::abs(it->get()->GetX() - x) <= it->get()->GetWidth() / 2 ) && (std::abs(it->get()->GetY() - y) <= it->get()->GetHeight() / 2) && (it->get()->GetLayer() == LAYER_PLANTS)){
       m_GameList.erase(it);
       break;
+      
     }
   }
+  m_PlantTypeChoosingNow = PlantsType::NONE;
 }
 
 void GameWorld::ChangeChoosingPlantType(PlantsType type){
@@ -91,12 +91,3 @@ inline ImageID GameWorld::ChangePlantsTypeToImageID(PlantsType type){
   else return IMGID_NONE;
 }
 
-bool GameWorld::IsPlanted(int x, int y){
-  // YOUR CODE HERE
-  for (auto &gameObject : m_GameList) {
-    if (gameObject->GetX() == x && gameObject->GetY() == y) {
-      return true;
-    }
-  }
-  return false;
-}

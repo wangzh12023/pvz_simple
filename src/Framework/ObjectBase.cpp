@@ -30,6 +30,10 @@ int ObjectBase::GetHeight() const {
   return m_height;
 }
 
+LayerID ObjectBase::GetLayer() const {
+  return m_layer;
+}
+
 AnimID ObjectBase::GetCurrentAnimation() const {
   return m_animID;
 }

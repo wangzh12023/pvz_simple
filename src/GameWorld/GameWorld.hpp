@@ -37,9 +37,9 @@ public:
   LevelStatus Update() override;
 
   void CleanUp() override;
-  void ChangeGameObject(PlantsType choosingType, int x, int y);
+  // void ChangeGameObject(PlantsType choosingType, int x, int y);
   void AddGameObject(PlantsType type, int x, int y);
-  void RemoveGameObject(int x, int y);
+  void RemoveGameObject(PlantsType type, int x, int y);
   void ChangeChoosingPlantType(PlantsType type);
   PlantsType GetChoosingPlantType();
 

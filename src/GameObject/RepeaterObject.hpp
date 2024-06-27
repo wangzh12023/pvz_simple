@@ -5,8 +5,8 @@
 class RepeaterObject : public PlantsObject
 { 
 public:
-  RepeaterObject(ImageID imageID, int x, int y, LayerID layer, int width, int height, AnimID animID):
-    PlantsObject(imageID, x, y, layer, width, height, animID) {};
+  RepeaterObject(ImageID imageID, int x, int y, LayerID layer, int width, int height, AnimID animID, pGameWorld gameWorld, PlantsType type = PlantsType::REPEATER):
+    PlantsObject(imageID, x, y, layer, width, height, animID, gameWorld, type) {};
 
   virtual ~RepeaterObject(){};
 
