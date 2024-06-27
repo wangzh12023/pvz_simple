@@ -54,12 +54,13 @@ public:
 
 private: 
 std::list<std::shared_ptr<ObjectBase>> m_GameList;
-
+std::list<std::shared_ptr<TextBase>> m_TextList;
 
 PlantsType m_PlantTypeChoosingNow = PlantsType::NONE;
 int m_Sun = SUN_START;
 double m_GameTime = 0;
 double m_SunTime = 0;
+int m_ZombieWave = 0;
 
 
 inline ImageID ChangePlantsTypeToImageID(PlantsType type);

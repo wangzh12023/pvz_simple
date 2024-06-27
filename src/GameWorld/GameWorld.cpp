@@ -2,6 +2,7 @@
 #include <iostream>
 #include <cmath>
 #include <string>
+#include <format>
 
 GameWorld::GameWorld() {}
 
@@ -21,8 +22,8 @@ void GameWorld::Init() {
   auto m_RepeaterSeed = std::make_shared<PlantsSeedObject>(IMGID_SEED_REPEATER, FIRST_SEED_COL_CENTER + 4 * SEED_WIDTH, SEED_ROW_CENTER,
                 LAYER_UI, SEED_WIDTH, SEED_HEIGHT, ANIMID_NO_ANIMATION, SUN_COST_REPEATER, REPEATER_COOLDOWN, PlantsType::REPEATER, shared_from_this());
   auto m_Shovel = std::make_shared<ShovelObject>(IMGID_SHOVEL, SHOVEL_X, SHOVEL_Y, LAYER_UI, SHOVEL_WIDTH, SHOVEL_HEIGHT, ANIMID_NO_ANIMATION, shared_from_this());
-  auto m_SunText = std::make_shared<TextBase>(SUN_TEXT_X, SUN_TEXT_Y, std::to_string(SUN_START), 0,0,0);
- 
+  auto m_SunText = std::make_shared<TextBase>(SUN_TEXT_X, SUN_TEXT_Y, TextType::SUN, std::to_string(SUN_START), 0,0,0);
+  auto m_wave = std::make_shared<TextBase>(WAVE_TEXT_X, WAVE_TEXT_Y, TextType::WAVE, "wave : " + std::to_string(m_ZombieWave), 0,0,0);
   m_GameList.push_back(m_Background);
   m_GameList.push_back(m_SunFlowerSeed);
   m_GameList.push_back(m_PeaShooterSeed);
@@ -30,6 +31,8 @@ void GameWorld::Init() {
   m_GameList.push_back(m_CherryBombSeed);
   m_GameList.push_back(m_RepeaterSeed);
   m_GameList.push_back(m_Shovel);
+  m_TextList.push_back(m_SunText);
+  m_TextList.push_back(m_wave);
 
 
 
@@ -49,13 +52,19 @@ LevelStatus GameWorld::Update() {
     //TODO: generate sun object
     auto sun = std::make_shared<SunObject>(IMGID_SUN, randInt(FIRST_COL_CENTER, LAST_COL_CENTER), LAST_ROW_CENTER, LAYER_SUN, SUN_WIDTH, SUN_HEIGHT, ANIMID_IDLE_ANIM, shared_from_this());
     m_GameList.push_back(sun);
-    std::cout<<"Sun generated"<<std::endl;
+
     m_SunTime -= SUN_GENERATE_SPEED;
   }
 
   for (auto &gameObject : m_GameList) {
     gameObject->Update();
   }
+
+  for (auto &textObject : m_TextList) {
+    if (textObject->GetTextType() == TextType::WAVE) textObject->SetText("wave : " + std::to_string(m_ZombieWave));
+    else if (textObject->GetTextType() == TextType::SUN) textObject->SetText(std::to_string(m_Sun));
+  }
+
   return LevelStatus::ONGOING;
 }
 

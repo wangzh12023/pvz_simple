@@ -4,9 +4,9 @@
 // Initialize static s_allTexts to an empty set.
 std::set<TextBase*> TextBase::s_allTexts{};
 
-TextBase::TextBase(int x, int y, const std::string& text, double colorR, double colorG, double colorB, bool centering)
-  : m_x(x), m_y(y), m_text(text), m_colorR(colorR), m_colorG(colorG), m_colorB(colorB), m_centering(centering){
-  s_allTexts.insert(this);
+TextBase::TextBase(int x, int y, TextType type, const std::string& text, double colorR, double colorG, double colorB , bool centering)
+  : m_x(x), m_y(y), m_type(type), m_text(text), m_colorR(colorR), m_colorG(colorG), m_colorB(colorB) , m_centering(centering){
+  s_allTexts.insert(this); 
 }
 
 TextBase::~TextBase() {
@@ -21,7 +21,9 @@ int TextBase::GetY() const {
   return m_y;
 }
 
-
+TextType TextBase::GetTextType() const {
+  return m_type;
+}
 void TextBase::MoveTo(int x, int y) {
   m_x = x;
   m_y = y;

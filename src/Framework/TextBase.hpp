@@ -8,7 +8,7 @@
 
 class TextBase {
 public:
-  TextBase(int x, int y, const std::string& text = "", double colorR = 0, double colorG = 0, double colorB = 0, bool m_centering = true);
+  TextBase(int x, int y, TextType type, const std::string& text = "", double colorR = 0, double colorG = 0, double colorB = 0, bool m_centering = true);
   TextBase(const TextBase& other) = delete;
   TextBase(TextBase&& other) = delete;
   TextBase& operator=(const TextBase& other) = delete;
@@ -18,7 +18,7 @@ public:
 
   int GetX() const;
   int GetY() const;
-
+  TextType GetTextType() const;
   void MoveTo(int x, int y); 
   void SetText(std::string text);
   
@@ -32,7 +32,7 @@ public:
 private:
   int m_x;
   int m_y;
-
+  TextType m_type;
   std::string m_text;
 
   double m_colorR;

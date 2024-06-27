@@ -42,6 +42,11 @@ enum class PlantsType {
   REPEATER,
   SUN
 };
+enum class TextType{
+  WAVE,
+  SUN
+};
+
 
 const int WINDOW_WIDTH = 800;
 const int WINDOW_HEIGHT = 600;
@@ -51,8 +56,8 @@ const int LAWN_GRID_HEIGHT = 100;
 
 const int FIRST_ROW_CENTER = 75;
 const int FIRST_COL_CENTER = 75;
-const int LAST_ROW_CENTER = 75 + 4 * LAWN_GRID_WIDTH;
-const int LAST_COL_CENTER = 75 + 8 * LAWN_GRID_HEIGHT;
+const int LAST_ROW_CENTER = 75 + 4 * LAWN_GRID_HEIGHT;
+const int LAST_COL_CENTER = 75 + 8 * LAWN_GRID_WIDTH;
 const int GAME_ROWS = 5;
 const int GAME_COLS = 9;
 
@@ -126,12 +131,15 @@ const int CHERRY_BOMB_COOLDOWN = 5000;
 const int REPEATER_COOLDOWN = 2000;
 
 const int SUN_START = 5000;
-const int SUN_TEXT_X = 50;
-const int SUN_TEXT_Y = WINDOW_HEIGHT - 50;
+const int SUN_TEXT_X = 60;
+const int SUN_TEXT_Y = WINDOW_HEIGHT - 80;
 const int SUN_GENERATE_SPEED = 5;
 const int SUN_FALL_MS_PER_FRAME = 2 ;
 const int SUN_COOL_TIME = 10;
 const int SUN_WIDTH = 80;
 const int SUN_HEIGHT = 80;
+
+const int WAVE_TEXT_X = WINDOW_WIDTH * 6 / 7;
+const int WAVE_TEXT_Y = 7;
 
 #endif // !UTILS_HPP__
