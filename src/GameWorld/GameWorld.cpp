@@ -22,7 +22,7 @@ void GameWorld::Init() {
                 LAYER_UI, SEED_WIDTH, SEED_HEIGHT, ANIMID_NO_ANIMATION, SUN_COST_REPEATER, REPEATER_COOLDOWN, PlantsType::REPEATER, shared_from_this());
   auto m_Shovel = std::make_shared<ShovelObject>(IMGID_SHOVEL, SHOVEL_X, SHOVEL_Y, LAYER_UI, SHOVEL_WIDTH, SHOVEL_HEIGHT, ANIMID_NO_ANIMATION, shared_from_this());
   auto m_SunText = std::make_shared<TextBase>(SUN_TEXT_X, SUN_TEXT_Y, std::to_string(SUN_START), 0,0,0);
-  
+ 
   m_GameList.push_back(m_Background);
   m_GameList.push_back(m_SunFlowerSeed);
   m_GameList.push_back(m_PeaShooterSeed);
@@ -30,7 +30,8 @@ void GameWorld::Init() {
   m_GameList.push_back(m_CherryBombSeed);
   m_GameList.push_back(m_RepeaterSeed);
   m_GameList.push_back(m_Shovel);
-  m_GameList.push_back(m_SunText);
+
+
 
   for (int i = 0; i < GAME_ROWS; i++) {
     for(int j =0; j < GAME_COLS; j++) {
@@ -41,6 +42,17 @@ void GameWorld::Init() {
 }
 
 LevelStatus GameWorld::Update() {
+  m_GameTime += MS_PER_FRAME / 1000.0;
+  m_SunTime += MS_PER_FRAME / 1000.0;
+
+  if (m_SunTime >= SUN_GENERATE_SPEED) {
+    //TODO: generate sun object
+    auto sun = std::make_shared<SunObject>(IMGID_SUN, randInt(FIRST_COL_CENTER, LAST_COL_CENTER), LAST_ROW_CENTER, LAYER_SUN, SUN_WIDTH, SUN_HEIGHT, ANIMID_IDLE_ANIM, shared_from_this());
+    m_GameList.push_back(sun);
+    std::cout<<"Sun generated"<<std::endl;
+    m_SunTime -= SUN_GENERATE_SPEED;
+  }
+
   for (auto &gameObject : m_GameList) {
     gameObject->Update();
   }
@@ -60,23 +72,70 @@ void GameWorld::CleanUp() {
 // }
 void GameWorld::AddGameObject(PlantsType type, int x, int y) {
   if (type == PlantsType::NONE || type == PlantsType::SHOVEL) return;
+  else if (type == PlantsType::SUNFLOWER) SunFlowerAdd(x,y);
+  else if (type == PlantsType::PEASHOOTER) PeaShooterAdd(x,y);
+  else if (type == PlantsType::WALLNUT) WallNutAdd(x,y);
+  else if (type == PlantsType::CHERRY_BOMB) CherryBombAdd(x,y);
+  else if (type == PlantsType::REPEATER) RepeaterAdd(x,y);
+}
 
-  ImageID plantId = ChangePlantsTypeToImageID(type);
-  auto plant = std::make_shared<PlantsObject>(plantId, x, y, LAYER_PLANTS, LAWN_GRID_WIDTH, LAWN_GRID_HEIGHT, ANIMID_IDLE_ANIM, shared_from_this(), type);
-  m_GameList.push_back(plant);
+
+void GameWorld::SunFlowerAdd(int x, int y) {
+  if (m_Sun < SUN_COST_SUNFLOWER) return;
+  m_Sun -= SUN_COST_SUNFLOWER;
+  auto sunFlower = std::make_shared<SunFlowerObject>(IMGID_SUNFLOWER, x, y, LAYER_PLANTS, LAWN_GRID_WIDTH, LAWN_GRID_HEIGHT, ANIMID_IDLE_ANIM, shared_from_this());
+  m_GameList.push_back(sunFlower);
+  m_PlantTypeChoosingNow = PlantsType::NONE;
+}
+void GameWorld::PeaShooterAdd(int x, int y) {
+  if (m_Sun < SUN_COST_PEASHOOTER) return;
+  m_Sun -= SUN_COST_PEASHOOTER;
+  auto peaShooter = std::make_shared<PeaShooterObject>(IMGID_PEASHOOTER, x, y, LAYER_PLANTS, LAWN_GRID_WIDTH, LAWN_GRID_HEIGHT, ANIMID_IDLE_ANIM, shared_from_this());
+  m_GameList.push_back(peaShooter);
+  m_PlantTypeChoosingNow = PlantsType::NONE;
+}
+void GameWorld::WallNutAdd(int x, int y) {
+  if (m_Sun < SUN_COST_WALLNUT) return;
+  m_Sun -= SUN_COST_WALLNUT;
+  auto wallNut = std::make_shared<WallNutObject>(IMGID_WALLNUT, x, y, LAYER_PLANTS, LAWN_GRID_WIDTH, LAWN_GRID_HEIGHT, ANIMID_IDLE_ANIM, shared_from_this());
+  m_GameList.push_back(wallNut);
+  m_PlantTypeChoosingNow = PlantsType::NONE;
+}
+void GameWorld::CherryBombAdd(int x, int y) {
+  if (m_Sun < SUN_COST_CHERRY_BOMB) return;
+  m_Sun -= SUN_COST_CHERRY_BOMB;
+  auto cherryBomb = std::make_shared<CherryBombObject>(IMGID_CHERRY_BOMB, x, y, LAYER_PLANTS, LAWN_GRID_WIDTH, LAWN_GRID_HEIGHT, ANIMID_IDLE_ANIM, shared_from_this());
+  m_GameList.push_back(cherryBomb);
+  m_PlantTypeChoosingNow = PlantsType::NONE;
+}
+void GameWorld::RepeaterAdd(int x, int y) {
+  if (m_Sun < SUN_COST_REPEATER) return;
+  m_Sun -= SUN_COST_REPEATER;
+  auto repeater = std::make_shared<RepeaterObject>(IMGID_REPEATER, x, y, LAYER_PLANTS, LAWN_GRID_WIDTH, LAWN_GRID_HEIGHT, ANIMID_IDLE_ANIM, shared_from_this());
+  m_GameList.push_back(repeater);
   m_PlantTypeChoosingNow = PlantsType::NONE;
 }
 
+
 void GameWorld::RemoveGameObject(PlantsType type, int x, int y){
   // YOUR CODE HERE
+  if (type == PlantsType::SUN){
+    for (auto it = m_GameList.begin(); it != m_GameList.end(); it++) {
+      if ((std::abs(it->get()->GetX() - x) <= it->get()->GetWidth() / 2 ) && (std::abs(it->get()->GetY() - y) <= it->get()->GetHeight() / 2) && (it->get()->GetLayer() == LAYER_SUN)){
+        m_GameList.erase(it);
+        return;
+      }
+    }
+  }
+
   if (type != PlantsType::SHOVEL) return;
   for (auto it = m_GameList.begin(); it != m_GameList.end(); it++) {
     if ((std::abs(it->get()->GetX() - x) <= it->get()->GetWidth() / 2 ) && (std::abs(it->get()->GetY() - y) <= it->get()->GetHeight() / 2) && (it->get()->GetLayer() == LAYER_PLANTS)){
       m_GameList.erase(it);
       break;
-      
     }
   }
+
   m_PlantTypeChoosingNow = PlantsType::NONE;
 }
 
@@ -97,3 +156,6 @@ inline ImageID GameWorld::ChangePlantsTypeToImageID(PlantsType type){
   else return IMGID_NONE;
 }
 
+void GameWorld::AddSun(int sun){
+  m_Sun += sun;
+}

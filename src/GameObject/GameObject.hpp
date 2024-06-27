@@ -15,7 +15,7 @@ public:
     ObjectBase(imageID, x, y, layer, width, height, animID){};
 
 private:
-
+  
 };
 
 

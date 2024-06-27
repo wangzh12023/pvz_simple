@@ -14,10 +14,7 @@ public:
   void Update() override{
     return;
   };
-  void OnClick() override{
-    
-    return;
-  };
+
 
 private:
 

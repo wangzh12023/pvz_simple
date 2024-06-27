@@ -215,4 +215,5 @@ src/GameWorld/CMakeFiles/GameWorld.dir/GameWorld.cpp.obj: \
  D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/WallNutObject.hpp \
  D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/CherryBombObject.hpp \
  D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/RepeaterObject.hpp \
- D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/ShovelObject.hpp
+ D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/ShovelObject.hpp \
+ D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/SunObject.hpp

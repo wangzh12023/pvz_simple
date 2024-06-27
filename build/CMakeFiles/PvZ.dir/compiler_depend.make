@@ -218,10 +218,13 @@ CMakeFiles/PvZ.dir/src/main.cpp.obj: D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/ta
   D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/RepeaterObject.hpp \
   D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/ShovelObject.hpp \
   D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/SunFlowerObject.hpp \
+  D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/SunObject.hpp \
   D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/WallNutObject.hpp \
   D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameWorld/GameWorld.hpp \
   D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/utils.hpp
 
+
+D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/SunObject.hpp:
 
 D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/SunFlowerObject.hpp:
 

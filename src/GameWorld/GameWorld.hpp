@@ -23,7 +23,7 @@
 #include "../GameObject/CherryBombObject.hpp"
 #include "../GameObject/RepeaterObject.hpp"
 #include "../GameObject/ShovelObject.hpp"
-
+#include "../GameObject/SunObject.hpp"
 
 class GameWorld : public WorldBase, public std::enable_shared_from_this<GameWorld> {
 public:
@@ -40,6 +40,15 @@ public:
   // void ChangeGameObject(PlantsType choosingType, int x, int y);
   void AddGameObject(PlantsType type, int x, int y);
   void RemoveGameObject(PlantsType type, int x, int y);
+
+  void SunFlowerAdd(int x, int y);
+  void PeaShooterAdd(int x, int y);
+  void WallNutAdd(int x, int y);
+  void CherryBombAdd(int x, int y);
+  void RepeaterAdd(int x, int y);
+  void AddSun(int sun);
+
+
   void ChangeChoosingPlantType(PlantsType type);
   PlantsType GetChoosingPlantType();
 
@@ -48,10 +57,13 @@ std::list<std::shared_ptr<ObjectBase>> m_GameList;
 
 
 PlantsType m_PlantTypeChoosingNow = PlantsType::NONE;
+int m_Sun = SUN_START;
+double m_GameTime = 0;
+double m_SunTime = 0;
 
 
 inline ImageID ChangePlantsTypeToImageID(PlantsType type);
-bool IsPlanted(int x, int y);
+
 };
 
 #endif // !GAMEWORLD_HPP__

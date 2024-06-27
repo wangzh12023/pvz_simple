@@ -1639,6 +1639,7 @@ src/Framework/CMakeFiles/Framework.dir/__/GameWorld/GameWorld.cpp.obj: D:/Wangzh
   D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/RepeaterObject.hpp \
   D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/ShovelObject.hpp \
   D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/SunFlowerObject.hpp \
+  D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/SunObject.hpp \
   D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/WallNutObject.hpp \
   D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameWorld/GameWorld.hpp \
   D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/utils.hpp \
@@ -1720,6 +1721,8 @@ C:/mingw64/x86_64-w64-mingw32/include/sec_api/string_s.h:
 C:/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h:
 
 C:/mingw64/x86_64-w64-mingw32/include/sdkddkver.h:
+
+D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/SunObject.hpp:
 
 C:/mingw64/x86_64-w64-mingw32/include/realtimeapiset.h:
 
