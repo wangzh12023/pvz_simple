@@ -540,6 +540,60 @@
   "output": "src/GameObject/CMakeFiles/GameObject.dir/PlantsSeedObject.cpp.obj"
 },
 {
+  "directory": "D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/build/src/GameObject",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/GameObject.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GameObject.dir\\PlantingPosObject.cpp.obj -c D:\\Wangzh\\p2\\cs\\skd_courses\\CS100\\HW\\hw8\\tar_1(2)\\src\\GameObject\\PlantingPosObject.cpp",
+  "file": "D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/PlantingPosObject.cpp",
+  "output": "src/GameObject/CMakeFiles/GameObject.dir/PlantingPosObject.cpp.obj"
+},
+{
+  "directory": "D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/build/src/GameObject",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/GameObject.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GameObject.dir\\PlantsObject.cpp.obj -c D:\\Wangzh\\p2\\cs\\skd_courses\\CS100\\HW\\hw8\\tar_1(2)\\src\\GameObject\\PlantsObject.cpp",
+  "file": "D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/PlantsObject.cpp",
+  "output": "src/GameObject/CMakeFiles/GameObject.dir/PlantsObject.cpp.obj"
+},
+{
+  "directory": "D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/build/src/GameObject",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/GameObject.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GameObject.dir\\SunFlowerObject.cpp.obj -c D:\\Wangzh\\p2\\cs\\skd_courses\\CS100\\HW\\hw8\\tar_1(2)\\src\\GameObject\\SunFlowerObject.cpp",
+  "file": "D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/SunFlowerObject.cpp",
+  "output": "src/GameObject/CMakeFiles/GameObject.dir/SunFlowerObject.cpp.obj"
+},
+{
+  "directory": "D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/build/src/GameObject",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/GameObject.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GameObject.dir\\PeaShooterObject.cpp.obj -c D:\\Wangzh\\p2\\cs\\skd_courses\\CS100\\HW\\hw8\\tar_1(2)\\src\\GameObject\\PeaShooterObject.cpp",
+  "file": "D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/PeaShooterObject.cpp",
+  "output": "src/GameObject/CMakeFiles/GameObject.dir/PeaShooterObject.cpp.obj"
+},
+{
+  "directory": "D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/build/src/GameObject",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/GameObject.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GameObject.dir\\WallNutObject.cpp.obj -c D:\\Wangzh\\p2\\cs\\skd_courses\\CS100\\HW\\hw8\\tar_1(2)\\src\\GameObject\\WallNutObject.cpp",
+  "file": "D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/WallNutObject.cpp",
+  "output": "src/GameObject/CMakeFiles/GameObject.dir/WallNutObject.cpp.obj"
+},
+{
+  "directory": "D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/build/src/GameObject",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/GameObject.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GameObject.dir\\CherryBombObject.cpp.obj -c D:\\Wangzh\\p2\\cs\\skd_courses\\CS100\\HW\\hw8\\tar_1(2)\\src\\GameObject\\CherryBombObject.cpp",
+  "file": "D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/CherryBombObject.cpp",
+  "output": "src/GameObject/CMakeFiles/GameObject.dir/CherryBombObject.cpp.obj"
+},
+{
+  "directory": "D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/build/src/GameObject",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/GameObject.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GameObject.dir\\RepeaterObject.cpp.obj -c D:\\Wangzh\\p2\\cs\\skd_courses\\CS100\\HW\\hw8\\tar_1(2)\\src\\GameObject\\RepeaterObject.cpp",
+  "file": "D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/RepeaterObject.cpp",
+  "output": "src/GameObject/CMakeFiles/GameObject.dir/RepeaterObject.cpp.obj"
+},
+{
+  "directory": "D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/build/src/GameObject",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/GameObject.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GameObject.dir\\SunObject.cpp.obj -c D:\\Wangzh\\p2\\cs\\skd_courses\\CS100\\HW\\hw8\\tar_1(2)\\src\\GameObject\\SunObject.cpp",
+  "file": "D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/SunObject.cpp",
+  "output": "src/GameObject/CMakeFiles/GameObject.dir/SunObject.cpp.obj"
+},
+{
+  "directory": "D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/build/src/GameObject",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/GameObject.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GameObject.dir\\ShovelObject.cpp.obj -c D:\\Wangzh\\p2\\cs\\skd_courses\\CS100\\HW\\hw8\\tar_1(2)\\src\\GameObject\\ShovelObject.cpp",
+  "file": "D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/ShovelObject.cpp",
+  "output": "src/GameObject/CMakeFiles/GameObject.dir/ShovelObject.cpp.obj"
+},
+{
   "directory": "D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/build/src/GameWorld",
   "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/GameWorld.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GameWorld.dir\\GameWorld.cpp.obj -c D:\\Wangzh\\p2\\cs\\skd_courses\\CS100\\HW\\hw8\\tar_1(2)\\src\\GameWorld\\GameWorld.cpp",
   "file": "D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameWorld/GameWorld.cpp",

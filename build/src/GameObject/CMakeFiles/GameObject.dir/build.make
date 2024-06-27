@@ -113,11 +113,155 @@ src/GameObject/CMakeFiles/GameObject.dir/PlantsSeedObject.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GameObject.dir/PlantsSeedObject.cpp.s"
 	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build\src\GameObject && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\src\GameObject\PlantsSeedObject.cpp -o CMakeFiles\GameObject.dir\PlantsSeedObject.cpp.s
 
+src/GameObject/CMakeFiles/GameObject.dir/PlantingPosObject.cpp.obj: src/GameObject/CMakeFiles/GameObject.dir/flags.make
+src/GameObject/CMakeFiles/GameObject.dir/PlantingPosObject.cpp.obj: src/GameObject/CMakeFiles/GameObject.dir/includes_CXX.rsp
+src/GameObject/CMakeFiles/GameObject.dir/PlantingPosObject.cpp.obj: D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/PlantingPosObject.cpp
+src/GameObject/CMakeFiles/GameObject.dir/PlantingPosObject.cpp.obj: src/GameObject/CMakeFiles/GameObject.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/GameObject/CMakeFiles/GameObject.dir/PlantingPosObject.cpp.obj"
+	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build\src\GameObject && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/GameObject/CMakeFiles/GameObject.dir/PlantingPosObject.cpp.obj -MF CMakeFiles\GameObject.dir\PlantingPosObject.cpp.obj.d -o CMakeFiles\GameObject.dir\PlantingPosObject.cpp.obj -c D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\src\GameObject\PlantingPosObject.cpp
+
+src/GameObject/CMakeFiles/GameObject.dir/PlantingPosObject.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GameObject.dir/PlantingPosObject.cpp.i"
+	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build\src\GameObject && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\src\GameObject\PlantingPosObject.cpp > CMakeFiles\GameObject.dir\PlantingPosObject.cpp.i
+
+src/GameObject/CMakeFiles/GameObject.dir/PlantingPosObject.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GameObject.dir/PlantingPosObject.cpp.s"
+	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build\src\GameObject && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\src\GameObject\PlantingPosObject.cpp -o CMakeFiles\GameObject.dir\PlantingPosObject.cpp.s
+
+src/GameObject/CMakeFiles/GameObject.dir/PlantsObject.cpp.obj: src/GameObject/CMakeFiles/GameObject.dir/flags.make
+src/GameObject/CMakeFiles/GameObject.dir/PlantsObject.cpp.obj: src/GameObject/CMakeFiles/GameObject.dir/includes_CXX.rsp
+src/GameObject/CMakeFiles/GameObject.dir/PlantsObject.cpp.obj: D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/PlantsObject.cpp
+src/GameObject/CMakeFiles/GameObject.dir/PlantsObject.cpp.obj: src/GameObject/CMakeFiles/GameObject.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/GameObject/CMakeFiles/GameObject.dir/PlantsObject.cpp.obj"
+	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build\src\GameObject && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/GameObject/CMakeFiles/GameObject.dir/PlantsObject.cpp.obj -MF CMakeFiles\GameObject.dir\PlantsObject.cpp.obj.d -o CMakeFiles\GameObject.dir\PlantsObject.cpp.obj -c D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\src\GameObject\PlantsObject.cpp
+
+src/GameObject/CMakeFiles/GameObject.dir/PlantsObject.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GameObject.dir/PlantsObject.cpp.i"
+	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build\src\GameObject && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\src\GameObject\PlantsObject.cpp > CMakeFiles\GameObject.dir\PlantsObject.cpp.i
+
+src/GameObject/CMakeFiles/GameObject.dir/PlantsObject.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GameObject.dir/PlantsObject.cpp.s"
+	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build\src\GameObject && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\src\GameObject\PlantsObject.cpp -o CMakeFiles\GameObject.dir\PlantsObject.cpp.s
+
+src/GameObject/CMakeFiles/GameObject.dir/SunFlowerObject.cpp.obj: src/GameObject/CMakeFiles/GameObject.dir/flags.make
+src/GameObject/CMakeFiles/GameObject.dir/SunFlowerObject.cpp.obj: src/GameObject/CMakeFiles/GameObject.dir/includes_CXX.rsp
+src/GameObject/CMakeFiles/GameObject.dir/SunFlowerObject.cpp.obj: D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/SunFlowerObject.cpp
+src/GameObject/CMakeFiles/GameObject.dir/SunFlowerObject.cpp.obj: src/GameObject/CMakeFiles/GameObject.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/GameObject/CMakeFiles/GameObject.dir/SunFlowerObject.cpp.obj"
+	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build\src\GameObject && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/GameObject/CMakeFiles/GameObject.dir/SunFlowerObject.cpp.obj -MF CMakeFiles\GameObject.dir\SunFlowerObject.cpp.obj.d -o CMakeFiles\GameObject.dir\SunFlowerObject.cpp.obj -c D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\src\GameObject\SunFlowerObject.cpp
+
+src/GameObject/CMakeFiles/GameObject.dir/SunFlowerObject.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GameObject.dir/SunFlowerObject.cpp.i"
+	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build\src\GameObject && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\src\GameObject\SunFlowerObject.cpp > CMakeFiles\GameObject.dir\SunFlowerObject.cpp.i
+
+src/GameObject/CMakeFiles/GameObject.dir/SunFlowerObject.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GameObject.dir/SunFlowerObject.cpp.s"
+	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build\src\GameObject && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\src\GameObject\SunFlowerObject.cpp -o CMakeFiles\GameObject.dir\SunFlowerObject.cpp.s
+
+src/GameObject/CMakeFiles/GameObject.dir/PeaShooterObject.cpp.obj: src/GameObject/CMakeFiles/GameObject.dir/flags.make
+src/GameObject/CMakeFiles/GameObject.dir/PeaShooterObject.cpp.obj: src/GameObject/CMakeFiles/GameObject.dir/includes_CXX.rsp
+src/GameObject/CMakeFiles/GameObject.dir/PeaShooterObject.cpp.obj: D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/PeaShooterObject.cpp
+src/GameObject/CMakeFiles/GameObject.dir/PeaShooterObject.cpp.obj: src/GameObject/CMakeFiles/GameObject.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/GameObject/CMakeFiles/GameObject.dir/PeaShooterObject.cpp.obj"
+	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build\src\GameObject && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/GameObject/CMakeFiles/GameObject.dir/PeaShooterObject.cpp.obj -MF CMakeFiles\GameObject.dir\PeaShooterObject.cpp.obj.d -o CMakeFiles\GameObject.dir\PeaShooterObject.cpp.obj -c D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\src\GameObject\PeaShooterObject.cpp
+
+src/GameObject/CMakeFiles/GameObject.dir/PeaShooterObject.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GameObject.dir/PeaShooterObject.cpp.i"
+	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build\src\GameObject && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\src\GameObject\PeaShooterObject.cpp > CMakeFiles\GameObject.dir\PeaShooterObject.cpp.i
+
+src/GameObject/CMakeFiles/GameObject.dir/PeaShooterObject.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GameObject.dir/PeaShooterObject.cpp.s"
+	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build\src\GameObject && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\src\GameObject\PeaShooterObject.cpp -o CMakeFiles\GameObject.dir\PeaShooterObject.cpp.s
+
+src/GameObject/CMakeFiles/GameObject.dir/WallNutObject.cpp.obj: src/GameObject/CMakeFiles/GameObject.dir/flags.make
+src/GameObject/CMakeFiles/GameObject.dir/WallNutObject.cpp.obj: src/GameObject/CMakeFiles/GameObject.dir/includes_CXX.rsp
+src/GameObject/CMakeFiles/GameObject.dir/WallNutObject.cpp.obj: D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/WallNutObject.cpp
+src/GameObject/CMakeFiles/GameObject.dir/WallNutObject.cpp.obj: src/GameObject/CMakeFiles/GameObject.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/GameObject/CMakeFiles/GameObject.dir/WallNutObject.cpp.obj"
+	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build\src\GameObject && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/GameObject/CMakeFiles/GameObject.dir/WallNutObject.cpp.obj -MF CMakeFiles\GameObject.dir\WallNutObject.cpp.obj.d -o CMakeFiles\GameObject.dir\WallNutObject.cpp.obj -c D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\src\GameObject\WallNutObject.cpp
+
+src/GameObject/CMakeFiles/GameObject.dir/WallNutObject.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GameObject.dir/WallNutObject.cpp.i"
+	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build\src\GameObject && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\src\GameObject\WallNutObject.cpp > CMakeFiles\GameObject.dir\WallNutObject.cpp.i
+
+src/GameObject/CMakeFiles/GameObject.dir/WallNutObject.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GameObject.dir/WallNutObject.cpp.s"
+	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build\src\GameObject && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\src\GameObject\WallNutObject.cpp -o CMakeFiles\GameObject.dir\WallNutObject.cpp.s
+
+src/GameObject/CMakeFiles/GameObject.dir/CherryBombObject.cpp.obj: src/GameObject/CMakeFiles/GameObject.dir/flags.make
+src/GameObject/CMakeFiles/GameObject.dir/CherryBombObject.cpp.obj: src/GameObject/CMakeFiles/GameObject.dir/includes_CXX.rsp
+src/GameObject/CMakeFiles/GameObject.dir/CherryBombObject.cpp.obj: D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/CherryBombObject.cpp
+src/GameObject/CMakeFiles/GameObject.dir/CherryBombObject.cpp.obj: src/GameObject/CMakeFiles/GameObject.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object src/GameObject/CMakeFiles/GameObject.dir/CherryBombObject.cpp.obj"
+	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build\src\GameObject && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/GameObject/CMakeFiles/GameObject.dir/CherryBombObject.cpp.obj -MF CMakeFiles\GameObject.dir\CherryBombObject.cpp.obj.d -o CMakeFiles\GameObject.dir\CherryBombObject.cpp.obj -c D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\src\GameObject\CherryBombObject.cpp
+
+src/GameObject/CMakeFiles/GameObject.dir/CherryBombObject.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GameObject.dir/CherryBombObject.cpp.i"
+	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build\src\GameObject && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\src\GameObject\CherryBombObject.cpp > CMakeFiles\GameObject.dir\CherryBombObject.cpp.i
+
+src/GameObject/CMakeFiles/GameObject.dir/CherryBombObject.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GameObject.dir/CherryBombObject.cpp.s"
+	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build\src\GameObject && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\src\GameObject\CherryBombObject.cpp -o CMakeFiles\GameObject.dir\CherryBombObject.cpp.s
+
+src/GameObject/CMakeFiles/GameObject.dir/RepeaterObject.cpp.obj: src/GameObject/CMakeFiles/GameObject.dir/flags.make
+src/GameObject/CMakeFiles/GameObject.dir/RepeaterObject.cpp.obj: src/GameObject/CMakeFiles/GameObject.dir/includes_CXX.rsp
+src/GameObject/CMakeFiles/GameObject.dir/RepeaterObject.cpp.obj: D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/RepeaterObject.cpp
+src/GameObject/CMakeFiles/GameObject.dir/RepeaterObject.cpp.obj: src/GameObject/CMakeFiles/GameObject.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object src/GameObject/CMakeFiles/GameObject.dir/RepeaterObject.cpp.obj"
+	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build\src\GameObject && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/GameObject/CMakeFiles/GameObject.dir/RepeaterObject.cpp.obj -MF CMakeFiles\GameObject.dir\RepeaterObject.cpp.obj.d -o CMakeFiles\GameObject.dir\RepeaterObject.cpp.obj -c D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\src\GameObject\RepeaterObject.cpp
+
+src/GameObject/CMakeFiles/GameObject.dir/RepeaterObject.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GameObject.dir/RepeaterObject.cpp.i"
+	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build\src\GameObject && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\src\GameObject\RepeaterObject.cpp > CMakeFiles\GameObject.dir\RepeaterObject.cpp.i
+
+src/GameObject/CMakeFiles/GameObject.dir/RepeaterObject.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GameObject.dir/RepeaterObject.cpp.s"
+	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build\src\GameObject && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\src\GameObject\RepeaterObject.cpp -o CMakeFiles\GameObject.dir\RepeaterObject.cpp.s
+
+src/GameObject/CMakeFiles/GameObject.dir/SunObject.cpp.obj: src/GameObject/CMakeFiles/GameObject.dir/flags.make
+src/GameObject/CMakeFiles/GameObject.dir/SunObject.cpp.obj: src/GameObject/CMakeFiles/GameObject.dir/includes_CXX.rsp
+src/GameObject/CMakeFiles/GameObject.dir/SunObject.cpp.obj: D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/SunObject.cpp
+src/GameObject/CMakeFiles/GameObject.dir/SunObject.cpp.obj: src/GameObject/CMakeFiles/GameObject.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object src/GameObject/CMakeFiles/GameObject.dir/SunObject.cpp.obj"
+	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build\src\GameObject && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/GameObject/CMakeFiles/GameObject.dir/SunObject.cpp.obj -MF CMakeFiles\GameObject.dir\SunObject.cpp.obj.d -o CMakeFiles\GameObject.dir\SunObject.cpp.obj -c D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\src\GameObject\SunObject.cpp
+
+src/GameObject/CMakeFiles/GameObject.dir/SunObject.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GameObject.dir/SunObject.cpp.i"
+	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build\src\GameObject && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\src\GameObject\SunObject.cpp > CMakeFiles\GameObject.dir\SunObject.cpp.i
+
+src/GameObject/CMakeFiles/GameObject.dir/SunObject.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GameObject.dir/SunObject.cpp.s"
+	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build\src\GameObject && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\src\GameObject\SunObject.cpp -o CMakeFiles\GameObject.dir\SunObject.cpp.s
+
+src/GameObject/CMakeFiles/GameObject.dir/ShovelObject.cpp.obj: src/GameObject/CMakeFiles/GameObject.dir/flags.make
+src/GameObject/CMakeFiles/GameObject.dir/ShovelObject.cpp.obj: src/GameObject/CMakeFiles/GameObject.dir/includes_CXX.rsp
+src/GameObject/CMakeFiles/GameObject.dir/ShovelObject.cpp.obj: D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/ShovelObject.cpp
+src/GameObject/CMakeFiles/GameObject.dir/ShovelObject.cpp.obj: src/GameObject/CMakeFiles/GameObject.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object src/GameObject/CMakeFiles/GameObject.dir/ShovelObject.cpp.obj"
+	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build\src\GameObject && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/GameObject/CMakeFiles/GameObject.dir/ShovelObject.cpp.obj -MF CMakeFiles\GameObject.dir\ShovelObject.cpp.obj.d -o CMakeFiles\GameObject.dir\ShovelObject.cpp.obj -c D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\src\GameObject\ShovelObject.cpp
+
+src/GameObject/CMakeFiles/GameObject.dir/ShovelObject.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GameObject.dir/ShovelObject.cpp.i"
+	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build\src\GameObject && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\src\GameObject\ShovelObject.cpp > CMakeFiles\GameObject.dir\ShovelObject.cpp.i
+
+src/GameObject/CMakeFiles/GameObject.dir/ShovelObject.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GameObject.dir/ShovelObject.cpp.s"
+	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build\src\GameObject && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\src\GameObject\ShovelObject.cpp -o CMakeFiles\GameObject.dir\ShovelObject.cpp.s
+
 # Object files for target GameObject
 GameObject_OBJECTS = \
 "CMakeFiles/GameObject.dir/GameObject.cpp.obj" \
 "CMakeFiles/GameObject.dir/BackgroundObject.cpp.obj" \
-"CMakeFiles/GameObject.dir/PlantsSeedObject.cpp.obj"
+"CMakeFiles/GameObject.dir/PlantsSeedObject.cpp.obj" \
+"CMakeFiles/GameObject.dir/PlantingPosObject.cpp.obj" \
+"CMakeFiles/GameObject.dir/PlantsObject.cpp.obj" \
+"CMakeFiles/GameObject.dir/SunFlowerObject.cpp.obj" \
+"CMakeFiles/GameObject.dir/PeaShooterObject.cpp.obj" \
+"CMakeFiles/GameObject.dir/WallNutObject.cpp.obj" \
+"CMakeFiles/GameObject.dir/CherryBombObject.cpp.obj" \
+"CMakeFiles/GameObject.dir/RepeaterObject.cpp.obj" \
+"CMakeFiles/GameObject.dir/SunObject.cpp.obj" \
+"CMakeFiles/GameObject.dir/ShovelObject.cpp.obj"
 
 # External object files for target GameObject
 GameObject_EXTERNAL_OBJECTS =
@@ -125,9 +269,18 @@ GameObject_EXTERNAL_OBJECTS =
 lib/libGameObject.a: src/GameObject/CMakeFiles/GameObject.dir/GameObject.cpp.obj
 lib/libGameObject.a: src/GameObject/CMakeFiles/GameObject.dir/BackgroundObject.cpp.obj
 lib/libGameObject.a: src/GameObject/CMakeFiles/GameObject.dir/PlantsSeedObject.cpp.obj
+lib/libGameObject.a: src/GameObject/CMakeFiles/GameObject.dir/PlantingPosObject.cpp.obj
+lib/libGameObject.a: src/GameObject/CMakeFiles/GameObject.dir/PlantsObject.cpp.obj
+lib/libGameObject.a: src/GameObject/CMakeFiles/GameObject.dir/SunFlowerObject.cpp.obj
+lib/libGameObject.a: src/GameObject/CMakeFiles/GameObject.dir/PeaShooterObject.cpp.obj
+lib/libGameObject.a: src/GameObject/CMakeFiles/GameObject.dir/WallNutObject.cpp.obj
+lib/libGameObject.a: src/GameObject/CMakeFiles/GameObject.dir/CherryBombObject.cpp.obj
+lib/libGameObject.a: src/GameObject/CMakeFiles/GameObject.dir/RepeaterObject.cpp.obj
+lib/libGameObject.a: src/GameObject/CMakeFiles/GameObject.dir/SunObject.cpp.obj
+lib/libGameObject.a: src/GameObject/CMakeFiles/GameObject.dir/ShovelObject.cpp.obj
 lib/libGameObject.a: src/GameObject/CMakeFiles/GameObject.dir/build.make
 lib/libGameObject.a: src/GameObject/CMakeFiles/GameObject.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library ..\..\lib\libGameObject.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX static library ..\..\lib\libGameObject.a"
 	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build\src\GameObject && $(CMAKE_COMMAND) -P CMakeFiles\GameObject.dir\cmake_clean_target.cmake
 	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build\src\GameObject && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\GameObject.dir\link.txt --verbose=$(VERBOSE)
 

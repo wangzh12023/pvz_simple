@@ -32,6 +32,16 @@ enum class KeyCode {
   QUIT   // Esc
 };
 
+enum class PlantsType {
+  SHOVEL,
+  NONE,
+  SUNFLOWER,
+  PEASHOOTER,
+  WALLNUT,
+  CHERRY_BOMB,
+  REPEATER
+};
+
 const int WINDOW_WIDTH = 800;
 const int WINDOW_HEIGHT = 600;
 
@@ -42,6 +52,16 @@ const int FIRST_ROW_CENTER = 75;
 const int FIRST_COL_CENTER = 75;
 const int GAME_ROWS = 5;
 const int GAME_COLS = 9;
+
+const int FIRST_SEED_COL_CENTER = 130;
+const int SEED_ROW_CENTER = WINDOW_HEIGHT - 44;  
+const int SEED_WIDTH = 50;
+const int SEED_HEIGHT = 70;
+
+const int SHOVEL_X = 600;
+const int SHOVEL_Y = WINDOW_HEIGHT - 40;
+const int SHOVEL_WIDTH = 50;
+const int SHOVEL_HEIGHT = 50;
 
 using ImageID = int;
 
@@ -89,5 +109,20 @@ const LayerID LAYER_UI = 5;
 const LayerID LAYER_BACKGROUND = 6;
 
 const int MS_PER_FRAME = 33;
+
+const int SUN_COST_SUNFLOWER = 50;
+const int SUN_COST_PEASHOOTER = 100;
+const int SUN_COST_WALLNUT = 50;
+const int SUN_COST_CHERRY_BOMB = 150;
+const int SUN_COST_REPEATER = 200;
+
+const int SUNFLOWER_COOLDOWN = 5000;
+const int PEASHOOTER_COOLDOWN = 1000;
+const int WALLNUT_COOLDOWN = 5000;
+const int CHERRY_BOMB_COOLDOWN = 5000;
+const int REPEATER_COOLDOWN = 2000;
+
+
+
 
 #endif // !UTILS_HPP__

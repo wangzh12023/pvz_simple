@@ -198,6 +198,30 @@ BackgroundObject.cpp.s:
 	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build && $(MAKE) $(MAKESILENT) -f src\GameObject\CMakeFiles\GameObject.dir\build.make src/GameObject/CMakeFiles/GameObject.dir/BackgroundObject.cpp.s
 .PHONY : BackgroundObject.cpp.s
 
+CherryBombObject.obj: CherryBombObject.cpp.obj
+.PHONY : CherryBombObject.obj
+
+# target to build an object file
+CherryBombObject.cpp.obj:
+	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build && $(MAKE) $(MAKESILENT) -f src\GameObject\CMakeFiles\GameObject.dir\build.make src/GameObject/CMakeFiles/GameObject.dir/CherryBombObject.cpp.obj
+.PHONY : CherryBombObject.cpp.obj
+
+CherryBombObject.i: CherryBombObject.cpp.i
+.PHONY : CherryBombObject.i
+
+# target to preprocess a source file
+CherryBombObject.cpp.i:
+	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build && $(MAKE) $(MAKESILENT) -f src\GameObject\CMakeFiles\GameObject.dir\build.make src/GameObject/CMakeFiles/GameObject.dir/CherryBombObject.cpp.i
+.PHONY : CherryBombObject.cpp.i
+
+CherryBombObject.s: CherryBombObject.cpp.s
+.PHONY : CherryBombObject.s
+
+# target to generate assembly for a file
+CherryBombObject.cpp.s:
+	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build && $(MAKE) $(MAKESILENT) -f src\GameObject\CMakeFiles\GameObject.dir\build.make src/GameObject/CMakeFiles/GameObject.dir/CherryBombObject.cpp.s
+.PHONY : CherryBombObject.cpp.s
+
 GameObject.obj: GameObject.cpp.obj
 .PHONY : GameObject.obj
 
@@ -221,6 +245,78 @@ GameObject.s: GameObject.cpp.s
 GameObject.cpp.s:
 	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build && $(MAKE) $(MAKESILENT) -f src\GameObject\CMakeFiles\GameObject.dir\build.make src/GameObject/CMakeFiles/GameObject.dir/GameObject.cpp.s
 .PHONY : GameObject.cpp.s
+
+PeaShooterObject.obj: PeaShooterObject.cpp.obj
+.PHONY : PeaShooterObject.obj
+
+# target to build an object file
+PeaShooterObject.cpp.obj:
+	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build && $(MAKE) $(MAKESILENT) -f src\GameObject\CMakeFiles\GameObject.dir\build.make src/GameObject/CMakeFiles/GameObject.dir/PeaShooterObject.cpp.obj
+.PHONY : PeaShooterObject.cpp.obj
+
+PeaShooterObject.i: PeaShooterObject.cpp.i
+.PHONY : PeaShooterObject.i
+
+# target to preprocess a source file
+PeaShooterObject.cpp.i:
+	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build && $(MAKE) $(MAKESILENT) -f src\GameObject\CMakeFiles\GameObject.dir\build.make src/GameObject/CMakeFiles/GameObject.dir/PeaShooterObject.cpp.i
+.PHONY : PeaShooterObject.cpp.i
+
+PeaShooterObject.s: PeaShooterObject.cpp.s
+.PHONY : PeaShooterObject.s
+
+# target to generate assembly for a file
+PeaShooterObject.cpp.s:
+	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build && $(MAKE) $(MAKESILENT) -f src\GameObject\CMakeFiles\GameObject.dir\build.make src/GameObject/CMakeFiles/GameObject.dir/PeaShooterObject.cpp.s
+.PHONY : PeaShooterObject.cpp.s
+
+PlantingPosObject.obj: PlantingPosObject.cpp.obj
+.PHONY : PlantingPosObject.obj
+
+# target to build an object file
+PlantingPosObject.cpp.obj:
+	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build && $(MAKE) $(MAKESILENT) -f src\GameObject\CMakeFiles\GameObject.dir\build.make src/GameObject/CMakeFiles/GameObject.dir/PlantingPosObject.cpp.obj
+.PHONY : PlantingPosObject.cpp.obj
+
+PlantingPosObject.i: PlantingPosObject.cpp.i
+.PHONY : PlantingPosObject.i
+
+# target to preprocess a source file
+PlantingPosObject.cpp.i:
+	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build && $(MAKE) $(MAKESILENT) -f src\GameObject\CMakeFiles\GameObject.dir\build.make src/GameObject/CMakeFiles/GameObject.dir/PlantingPosObject.cpp.i
+.PHONY : PlantingPosObject.cpp.i
+
+PlantingPosObject.s: PlantingPosObject.cpp.s
+.PHONY : PlantingPosObject.s
+
+# target to generate assembly for a file
+PlantingPosObject.cpp.s:
+	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build && $(MAKE) $(MAKESILENT) -f src\GameObject\CMakeFiles\GameObject.dir\build.make src/GameObject/CMakeFiles/GameObject.dir/PlantingPosObject.cpp.s
+.PHONY : PlantingPosObject.cpp.s
+
+PlantsObject.obj: PlantsObject.cpp.obj
+.PHONY : PlantsObject.obj
+
+# target to build an object file
+PlantsObject.cpp.obj:
+	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build && $(MAKE) $(MAKESILENT) -f src\GameObject\CMakeFiles\GameObject.dir\build.make src/GameObject/CMakeFiles/GameObject.dir/PlantsObject.cpp.obj
+.PHONY : PlantsObject.cpp.obj
+
+PlantsObject.i: PlantsObject.cpp.i
+.PHONY : PlantsObject.i
+
+# target to preprocess a source file
+PlantsObject.cpp.i:
+	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build && $(MAKE) $(MAKESILENT) -f src\GameObject\CMakeFiles\GameObject.dir\build.make src/GameObject/CMakeFiles/GameObject.dir/PlantsObject.cpp.i
+.PHONY : PlantsObject.cpp.i
+
+PlantsObject.s: PlantsObject.cpp.s
+.PHONY : PlantsObject.s
+
+# target to generate assembly for a file
+PlantsObject.cpp.s:
+	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build && $(MAKE) $(MAKESILENT) -f src\GameObject\CMakeFiles\GameObject.dir\build.make src/GameObject/CMakeFiles/GameObject.dir/PlantsObject.cpp.s
+.PHONY : PlantsObject.cpp.s
 
 PlantsSeedObject.obj: PlantsSeedObject.cpp.obj
 .PHONY : PlantsSeedObject.obj
@@ -246,6 +342,126 @@ PlantsSeedObject.cpp.s:
 	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build && $(MAKE) $(MAKESILENT) -f src\GameObject\CMakeFiles\GameObject.dir\build.make src/GameObject/CMakeFiles/GameObject.dir/PlantsSeedObject.cpp.s
 .PHONY : PlantsSeedObject.cpp.s
 
+RepeaterObject.obj: RepeaterObject.cpp.obj
+.PHONY : RepeaterObject.obj
+
+# target to build an object file
+RepeaterObject.cpp.obj:
+	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build && $(MAKE) $(MAKESILENT) -f src\GameObject\CMakeFiles\GameObject.dir\build.make src/GameObject/CMakeFiles/GameObject.dir/RepeaterObject.cpp.obj
+.PHONY : RepeaterObject.cpp.obj
+
+RepeaterObject.i: RepeaterObject.cpp.i
+.PHONY : RepeaterObject.i
+
+# target to preprocess a source file
+RepeaterObject.cpp.i:
+	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build && $(MAKE) $(MAKESILENT) -f src\GameObject\CMakeFiles\GameObject.dir\build.make src/GameObject/CMakeFiles/GameObject.dir/RepeaterObject.cpp.i
+.PHONY : RepeaterObject.cpp.i
+
+RepeaterObject.s: RepeaterObject.cpp.s
+.PHONY : RepeaterObject.s
+
+# target to generate assembly for a file
+RepeaterObject.cpp.s:
+	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build && $(MAKE) $(MAKESILENT) -f src\GameObject\CMakeFiles\GameObject.dir\build.make src/GameObject/CMakeFiles/GameObject.dir/RepeaterObject.cpp.s
+.PHONY : RepeaterObject.cpp.s
+
+ShovelObject.obj: ShovelObject.cpp.obj
+.PHONY : ShovelObject.obj
+
+# target to build an object file
+ShovelObject.cpp.obj:
+	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build && $(MAKE) $(MAKESILENT) -f src\GameObject\CMakeFiles\GameObject.dir\build.make src/GameObject/CMakeFiles/GameObject.dir/ShovelObject.cpp.obj
+.PHONY : ShovelObject.cpp.obj
+
+ShovelObject.i: ShovelObject.cpp.i
+.PHONY : ShovelObject.i
+
+# target to preprocess a source file
+ShovelObject.cpp.i:
+	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build && $(MAKE) $(MAKESILENT) -f src\GameObject\CMakeFiles\GameObject.dir\build.make src/GameObject/CMakeFiles/GameObject.dir/ShovelObject.cpp.i
+.PHONY : ShovelObject.cpp.i
+
+ShovelObject.s: ShovelObject.cpp.s
+.PHONY : ShovelObject.s
+
+# target to generate assembly for a file
+ShovelObject.cpp.s:
+	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build && $(MAKE) $(MAKESILENT) -f src\GameObject\CMakeFiles\GameObject.dir\build.make src/GameObject/CMakeFiles/GameObject.dir/ShovelObject.cpp.s
+.PHONY : ShovelObject.cpp.s
+
+SunFlowerObject.obj: SunFlowerObject.cpp.obj
+.PHONY : SunFlowerObject.obj
+
+# target to build an object file
+SunFlowerObject.cpp.obj:
+	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build && $(MAKE) $(MAKESILENT) -f src\GameObject\CMakeFiles\GameObject.dir\build.make src/GameObject/CMakeFiles/GameObject.dir/SunFlowerObject.cpp.obj
+.PHONY : SunFlowerObject.cpp.obj
+
+SunFlowerObject.i: SunFlowerObject.cpp.i
+.PHONY : SunFlowerObject.i
+
+# target to preprocess a source file
+SunFlowerObject.cpp.i:
+	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build && $(MAKE) $(MAKESILENT) -f src\GameObject\CMakeFiles\GameObject.dir\build.make src/GameObject/CMakeFiles/GameObject.dir/SunFlowerObject.cpp.i
+.PHONY : SunFlowerObject.cpp.i
+
+SunFlowerObject.s: SunFlowerObject.cpp.s
+.PHONY : SunFlowerObject.s
+
+# target to generate assembly for a file
+SunFlowerObject.cpp.s:
+	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build && $(MAKE) $(MAKESILENT) -f src\GameObject\CMakeFiles\GameObject.dir\build.make src/GameObject/CMakeFiles/GameObject.dir/SunFlowerObject.cpp.s
+.PHONY : SunFlowerObject.cpp.s
+
+SunObject.obj: SunObject.cpp.obj
+.PHONY : SunObject.obj
+
+# target to build an object file
+SunObject.cpp.obj:
+	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build && $(MAKE) $(MAKESILENT) -f src\GameObject\CMakeFiles\GameObject.dir\build.make src/GameObject/CMakeFiles/GameObject.dir/SunObject.cpp.obj
+.PHONY : SunObject.cpp.obj
+
+SunObject.i: SunObject.cpp.i
+.PHONY : SunObject.i
+
+# target to preprocess a source file
+SunObject.cpp.i:
+	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build && $(MAKE) $(MAKESILENT) -f src\GameObject\CMakeFiles\GameObject.dir\build.make src/GameObject/CMakeFiles/GameObject.dir/SunObject.cpp.i
+.PHONY : SunObject.cpp.i
+
+SunObject.s: SunObject.cpp.s
+.PHONY : SunObject.s
+
+# target to generate assembly for a file
+SunObject.cpp.s:
+	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build && $(MAKE) $(MAKESILENT) -f src\GameObject\CMakeFiles\GameObject.dir\build.make src/GameObject/CMakeFiles/GameObject.dir/SunObject.cpp.s
+.PHONY : SunObject.cpp.s
+
+WallNutObject.obj: WallNutObject.cpp.obj
+.PHONY : WallNutObject.obj
+
+# target to build an object file
+WallNutObject.cpp.obj:
+	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build && $(MAKE) $(MAKESILENT) -f src\GameObject\CMakeFiles\GameObject.dir\build.make src/GameObject/CMakeFiles/GameObject.dir/WallNutObject.cpp.obj
+.PHONY : WallNutObject.cpp.obj
+
+WallNutObject.i: WallNutObject.cpp.i
+.PHONY : WallNutObject.i
+
+# target to preprocess a source file
+WallNutObject.cpp.i:
+	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build && $(MAKE) $(MAKESILENT) -f src\GameObject\CMakeFiles\GameObject.dir\build.make src/GameObject/CMakeFiles/GameObject.dir/WallNutObject.cpp.i
+.PHONY : WallNutObject.cpp.i
+
+WallNutObject.s: WallNutObject.cpp.s
+.PHONY : WallNutObject.s
+
+# target to generate assembly for a file
+WallNutObject.cpp.s:
+	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build && $(MAKE) $(MAKESILENT) -f src\GameObject\CMakeFiles\GameObject.dir\build.make src/GameObject/CMakeFiles/GameObject.dir/WallNutObject.cpp.s
+.PHONY : WallNutObject.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -262,12 +478,39 @@ help:
 	@echo ... BackgroundObject.obj
 	@echo ... BackgroundObject.i
 	@echo ... BackgroundObject.s
+	@echo ... CherryBombObject.obj
+	@echo ... CherryBombObject.i
+	@echo ... CherryBombObject.s
 	@echo ... GameObject.obj
 	@echo ... GameObject.i
 	@echo ... GameObject.s
+	@echo ... PeaShooterObject.obj
+	@echo ... PeaShooterObject.i
+	@echo ... PeaShooterObject.s
+	@echo ... PlantingPosObject.obj
+	@echo ... PlantingPosObject.i
+	@echo ... PlantingPosObject.s
+	@echo ... PlantsObject.obj
+	@echo ... PlantsObject.i
+	@echo ... PlantsObject.s
 	@echo ... PlantsSeedObject.obj
 	@echo ... PlantsSeedObject.i
 	@echo ... PlantsSeedObject.s
+	@echo ... RepeaterObject.obj
+	@echo ... RepeaterObject.i
+	@echo ... RepeaterObject.s
+	@echo ... ShovelObject.obj
+	@echo ... ShovelObject.i
+	@echo ... ShovelObject.s
+	@echo ... SunFlowerObject.obj
+	@echo ... SunFlowerObject.i
+	@echo ... SunFlowerObject.s
+	@echo ... SunObject.obj
+	@echo ... SunObject.i
+	@echo ... SunObject.s
+	@echo ... WallNutObject.obj
+	@echo ... WallNutObject.i
+	@echo ... WallNutObject.s
 .PHONY : help
 
 

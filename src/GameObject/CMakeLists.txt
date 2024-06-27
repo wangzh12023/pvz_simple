@@ -7,6 +7,26 @@ add_library(
   GameObject.cpp
   BackgroundObject.hpp
   BackgroundObject.cpp
+  PlantsSeedObject.hpp
+  PlantsSeedObject.cpp
+  PlantingPosObject.hpp
+  PlantingPosObject.cpp
+  PlantsObject.hpp
+  PlantsObject.cpp
+  SunFlowerObject.hpp
+  SunFlowerObject.cpp
+  PeaShooterObject.hpp
+  PeaShooterObject.cpp
+  WallNutObject.hpp
+  WallNutObject.cpp
+  CherryBombObject.hpp
+  CherryBombObject.cpp
+  RepeaterObject.hpp
+  RepeaterObject.cpp
+  SunObject.hpp
+  SunObject.cpp
+  ShovelObject.hpp
+  ShovelObject.cpp
 )
 
 target_link_libraries(

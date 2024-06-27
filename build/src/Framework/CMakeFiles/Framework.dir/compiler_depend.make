@@ -1630,11 +1630,26 @@ src/Framework/CMakeFiles/Framework.dir/__/GameWorld/GameWorld.cpp.obj: D:/Wangzh
   D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/Framework/TextBase.hpp \
   D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/Framework/WorldBase.hpp \
   D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/BackgroundObject.hpp \
+  D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/CherryBombObject.hpp \
   D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/GameObject.hpp \
+  D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/PeaShooterObject.hpp \
+  D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/PlantingPosObject.hpp \
+  D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/PlantsObject.hpp \
   D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/PlantsSeedObject.hpp \
+  D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/RepeaterObject.hpp \
+  D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/ShovelObject.hpp \
+  D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/SunFlowerObject.hpp \
+  D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/WallNutObject.hpp \
+  D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameWorld/GameWorld.hpp \
   D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/utils.hpp \
   D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameWorld/GameWorld.hpp
 
+
+D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/RepeaterObject.hpp:
+
+D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/PlantingPosObject.hpp:
+
+D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/PeaShooterObject.hpp:
 
 D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/BackgroundObject.hpp:
 
@@ -1960,6 +1975,8 @@ C:/mingw64/include/c++/13.2.0/bits/shared_ptr.h:
 
 C:/mingw64/include/c++/13.2.0/bits/cxxabi_init_exception.h:
 
+D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/ShovelObject.hpp:
+
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/wmmintrin.h:
 
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/shaintrin.h:
@@ -2015,6 +2032,8 @@ C:/mingw64/include/c++/13.2.0/bits/codecvt.h:
 C:/mingw64/include/c++/13.2.0/bits/list.tcc:
 
 C:/mingw64/include/c++/13.2.0/x86_64-w64-mingw32/bits/c++config.h:
+
+D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/PlantsObject.hpp:
 
 C:/mingw64/include/c++/13.2.0/bits/string_view.tcc:
 
@@ -2156,6 +2175,8 @@ C:/mingw64/x86_64-w64-mingw32/include/vadefs.h:
 
 C:/mingw64/include/c++/13.2.0/bits/atomic_base.h:
 
+D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/CherryBombObject.hpp:
+
 C:/mingw64/include/c++/13.2.0/iomanip:
 
 C:/mingw64/include/c++/13.2.0/bits/atomic_lockfree_defines.h:
@@ -2227,6 +2248,8 @@ C:/mingw64/include/c++/13.2.0/ostream:
 C:/mingw64/include/c++/13.2.0/bits/stl_iterator_base_types.h:
 
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/avx512vbmi2vlintrin.h:
+
+D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/WallNutObject.hpp:
 
 C:/mingw64/include/c++/13.2.0/bits/charconv.h:
 
@@ -2467,6 +2490,8 @@ C:/mingw64/include/c++/13.2.0/type_traits:
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/mm3dnow.h:
 
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/mm_malloc.h:
+
+D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/SunFlowerObject.hpp:
 
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/mmintrin.h:
 

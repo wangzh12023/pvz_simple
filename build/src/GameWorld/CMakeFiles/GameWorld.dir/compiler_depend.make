@@ -205,11 +205,24 @@ src/GameWorld/CMakeFiles/GameWorld.dir/GameWorld.cpp.obj: D:/Wangzh/p2/cs/skd_co
   D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/Framework/TextBase.hpp \
   D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/Framework/WorldBase.hpp \
   D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/BackgroundObject.hpp \
+  D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/CherryBombObject.hpp \
   D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/GameObject.hpp \
+  D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/PeaShooterObject.hpp \
+  D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/PlantingPosObject.hpp \
+  D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/PlantsObject.hpp \
   D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/PlantsSeedObject.hpp \
+  D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/RepeaterObject.hpp \
+  D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/ShovelObject.hpp \
+  D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/SunFlowerObject.hpp \
+  D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/WallNutObject.hpp \
+  D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameWorld/GameWorld.hpp \
   D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/utils.hpp \
   D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameWorld/GameWorld.hpp
 
+
+D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/SunFlowerObject.hpp:
+
+D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/ShovelObject.hpp:
 
 D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/Framework/ObjectBase.hpp:
 
@@ -289,6 +302,8 @@ C:/mingw64/include/c++/13.2.0/x86_64-w64-mingw32/bits/atomic_word.h:
 
 C:/mingw64/include/c++/13.2.0/vector:
 
+D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/PeaShooterObject.hpp:
+
 C:/mingw64/include/c++/13.2.0/type_traits:
 
 C:/mingw64/x86_64-w64-mingw32/include/stdlib.h:
@@ -301,7 +316,11 @@ C:/mingw64/include/c++/13.2.0/tr1/modified_bessel_func.tcc:
 
 C:/mingw64/include/c++/13.2.0/tr1/legendre_function.tcc:
 
+D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/CherryBombObject.hpp:
+
 C:/mingw64/include/c++/13.2.0/tr1/gamma.tcc:
+
+D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/PlantsObject.hpp:
 
 C:/mingw64/x86_64-w64-mingw32/include/stdio.h:
 
@@ -421,6 +440,8 @@ C:/mingw64/include/c++/13.2.0/tr1/bessel_function.tcc:
 
 C:/mingw64/include/c++/13.2.0/bits/vector.tcc:
 
+D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/RepeaterObject.hpp:
+
 C:/mingw64/include/c++/13.2.0/bits/move.h:
 
 C:/mingw64/include/c++/13.2.0/bits/range_access.h:
@@ -448,6 +469,8 @@ C:/mingw64/include/c++/13.2.0/stdlib.h:
 C:/mingw64/include/c++/13.2.0/set:
 
 C:/mingw64/include/c++/13.2.0/bits/ios_base.h:
+
+D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/WallNutObject.hpp:
 
 C:/mingw64/include/c++/13.2.0/bits/invoke.h:
 
@@ -598,6 +621,8 @@ C:/mingw64/include/c++/13.2.0/iostream:
 C:/mingw64/include/c++/13.2.0/ext/numeric_traits.h:
 
 C:/mingw64/include/c++/13.2.0/ext/type_traits.h:
+
+D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/PlantingPosObject.hpp:
 
 C:/mingw64/x86_64-w64-mingw32/include/wchar.h:
 

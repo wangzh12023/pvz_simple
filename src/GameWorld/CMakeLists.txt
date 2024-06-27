@@ -10,6 +10,7 @@ add_library(
 target_link_libraries(
   GameWorld
   GameObject
+  Framework
 )
 
 target_include_directories(
