@@ -5,14 +5,12 @@
 class RepeaterObject : public PlantsObject
 { 
 public:
-  RepeaterObject(ImageID imageID, int x, int y, LayerID layer, int width, int height, AnimID animID, pGameWorld gameWorld, PlantsType type = PlantsType::REPEATER):
-    PlantsObject(imageID, x, y, layer, width, height, animID, gameWorld, type) {};
+  RepeaterObject(ImageID imageID, int x, int y, LayerID layer, int width, int height, AnimID animID, pGameWorld gameWorld, PlantsType type = PlantsType::REPEATER, int hp = 300):
+    PlantsObject(imageID, x, y, layer, width, height, animID, gameWorld, type,hp) {};
 
   virtual ~RepeaterObject(){};
 
-  void Update() override{
-    return;
-  };
+  void Update() override;
 
 
 private:

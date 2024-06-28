@@ -24,6 +24,10 @@
 #include "../GameObject/RepeaterObject.hpp"
 #include "../GameObject/ShovelObject.hpp"
 #include "../GameObject/SunObject.hpp"
+#include "../GameObject/CoolDownMaskObject.hpp"
+#include "../GameObject/ZombieObject.hpp"
+#include "../GameObject/SunOfPlantObject.hpp"
+#include "../GameObject/SunOfNormalObject.hpp"
 
 class GameWorld : public WorldBase, public std::enable_shared_from_this<GameWorld> {
 public:
@@ -47,23 +51,28 @@ public:
   void CherryBombAdd(int x, int y);
   void RepeaterAdd(int x, int y);
   void AddSun(int sun);
-
-
+  void RemoveMask(int x, int y);
+  bool CollideCheck(int x, int y);
   void ChangeChoosingPlantType(PlantsType type);
+  void ZombieAdd(ZombieType type, int x, int y);
+  void AttackPlant(int x, int y, int damage = 3);
   PlantsType GetChoosingPlantType();
 
 private: 
-std::list<std::shared_ptr<ObjectBase>> m_GameList;
+std::list<std::shared_ptr<GameObject>> m_GameList;
 std::list<std::shared_ptr<TextBase>> m_TextList;
 
 PlantsType m_PlantTypeChoosingNow = PlantsType::NONE;
 int m_Sun = SUN_START;
 double m_GameTime = 0;
 double m_SunTime = 0;
+double m_ZombieTime = 0;
 int m_ZombieWave = 0;
 
 
 inline ImageID ChangePlantsTypeToImageID(PlantsType type);
+inline ImageID ChangeZombieTypeToImageID(ZombieType type);
+
 
 };
 

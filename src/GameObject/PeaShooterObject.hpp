@@ -5,14 +5,12 @@
 class PeaShooterObject : public PlantsObject
 { 
 public:
-  PeaShooterObject(ImageID imageID, int x, int y, LayerID layer, int width, int height, AnimID animID, pGameWorld gameWorld, PlantsType type = PlantsType::PEASHOOTER):
-    PlantsObject(imageID, x, y, layer, width, height, animID, gameWorld, type) {};
+  PeaShooterObject(ImageID imageID, int x, int y, LayerID layer, int width, int height, AnimID animID, pGameWorld gameWorld, PlantsType type = PlantsType::PEASHOOTER, int hp = 300):
+    PlantsObject(imageID, x, y, layer, width, height, animID, gameWorld, type, hp) {};
 
   virtual ~PeaShooterObject(){};
 
-  void Update() override{
-    return;
-  };
+  void Update() override;
 
 
 private:

@@ -6,14 +6,12 @@
 class CherryBombObject : public PlantsObject
 { 
 public:
-  CherryBombObject(ImageID imageID, int x, int y, LayerID layer, int width, int height, AnimID animID, pGameWorld gameWorld, PlantsType type = PlantsType::CHERRY_BOMB):
-    PlantsObject(imageID, x, y, layer, width, height, animID, gameWorld, type) {};
+  CherryBombObject(ImageID imageID, int x, int y, LayerID layer, int width, int height, AnimID animID, pGameWorld gameWorld, PlantsType type = PlantsType::CHERRY_BOMB, int hp = 4000):
+    PlantsObject(imageID, x, y, layer, width, height, animID, gameWorld, type, hp) {};
 
   virtual ~CherryBombObject(){};
 
-  void Update() override{
-    return;
-  };
+  void Update() override;
 
 
 private:

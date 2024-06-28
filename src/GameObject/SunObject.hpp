@@ -10,10 +10,19 @@ public:
 
   virtual ~SunObject(){};
 
-  void Update() override;
+  void Update() override = 0;
   void OnClick() override;
-private:
+
+  void SetCoolTime(double coolTime){
+    m_coolTime = coolTime;
+  }
+
+  double GetCoolTime() const{
+    return m_coolTime;
+  }
+protected:
   pGameWorld m_gameWorld;
+private:
   PlantsType m_type;
   double m_coolTime = 0;
   

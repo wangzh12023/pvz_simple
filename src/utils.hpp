@@ -3,6 +3,7 @@
 
 #include <random>
 #include <string>
+#include <list>
 
 // This relative path on Mac OS is different from that on other OS, because the
 // way Xcode organizes the project files is different from others.
@@ -23,6 +24,16 @@ inline int randInt(int min, int max) {
   std::uniform_int_distribution<> distro(min, max);
   return distro(generator);
 }
+inline int randRow(std::list<int> numberList){
+  std::random_device rd;
+  std::mt19937 generator(rd());
+  std::uniform_int_distribution<> distro(0, numberList.size() - 1);
+  auto it = std::next(numberList.begin(), distro(generator));
+  return *it;
+}
+
+
+
 
 enum class LevelStatus { ONGOING, LOSING };
 
@@ -31,6 +42,14 @@ enum class KeyCode {
   ENTER, // Enter
   QUIT   // Esc
 };
+
+enum class ObjectType {
+  Plant,
+  Zombie,
+  Other
+};
+
+
 
 enum class PlantsType {
   SHOVEL,
@@ -47,6 +66,10 @@ enum class TextType{
   SUN
 };
 
+enum class ZombieType {
+  REGULAR,
+  BUCKET_HEAD
+};
 
 const int WINDOW_WIDTH = 800;
 const int WINDOW_HEIGHT = 600;
@@ -124,11 +147,11 @@ const int SUN_COST_WALLNUT = 50;
 const int SUN_COST_CHERRY_BOMB = 150;
 const int SUN_COST_REPEATER = 200;
 
-const int SUNFLOWER_COOLDOWN = 5000;
-const int PEASHOOTER_COOLDOWN = 1000;
-const int WALLNUT_COOLDOWN = 5000;
-const int CHERRY_BOMB_COOLDOWN = 5000;
-const int REPEATER_COOLDOWN = 2000;
+const int SUNFLOWER_COOLDOWN = 100;
+const int PEASHOOTER_COOLDOWN = 100;
+const int WALLNUT_COOLDOWN = 100;
+const int CHERRY_BOMB_COOLDOWN = 100;
+const int REPEATER_COOLDOWN = 100;
 
 const int SUN_START = 5000;
 const int SUN_TEXT_X = 60;
@@ -141,5 +164,17 @@ const int SUN_HEIGHT = 80;
 
 const int WAVE_TEXT_X = WINDOW_WIDTH * 6 / 7;
 const int WAVE_TEXT_Y = 7;
+const int ZOMBIE_GENERATE_SPEED = 5;
+const int ZOMBIE_MOVE_SPEED = 1;
+const int ZOMBIE_WIDTH = 20;
+const int ZOMBIE_HEIGHT = 80;
+const int HP_REGULAR_ZOMBIE = 200;
+const int HP_BUCKET_HEAD_ZOMBIE = 1700;
+const int HP_POLE_VAULTING_ZOMBIE = 700;
+
+const int SUN_FLOWER_GENERATE_TIME = 5
+
+
+
 
 #endif // !UTILS_HPP__
