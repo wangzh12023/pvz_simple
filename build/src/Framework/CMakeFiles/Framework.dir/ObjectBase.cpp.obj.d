@@ -182,6 +182,10 @@ src/Framework/CMakeFiles/Framework.dir/ObjectBase.cpp.obj: \
  C:/mingw64/include/c++/13.2.0/bits/stl_numeric.h \
  C:/mingw64/include/c++/13.2.0/pstl/glue_numeric_defs.h \
  C:/mingw64/include/c++/13.2.0/pstl/execution_defs.h \
+ C:/mingw64/include/c++/13.2.0/list \
+ C:/mingw64/include/c++/13.2.0/bits/stl_list.h \
+ C:/mingw64/include/c++/13.2.0/bits/allocated_ptr.h \
+ C:/mingw64/include/c++/13.2.0/bits/list.tcc \
  D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\src\Framework\GameManager.hpp \
  C:/mingw64/include/c++/13.2.0/memory \
  C:/mingw64/include/c++/13.2.0/bits/stl_tempbuf.h \
@@ -190,7 +194,6 @@ src/Framework/CMakeFiles/Framework.dir/ObjectBase.cpp.obj: \
  C:/mingw64/include/c++/13.2.0/bits/unique_ptr.h \
  C:/mingw64/include/c++/13.2.0/bits/shared_ptr.h \
  C:/mingw64/include/c++/13.2.0/bits/shared_ptr_base.h \
- C:/mingw64/include/c++/13.2.0/bits/allocated_ptr.h \
  C:/mingw64/include/c++/13.2.0/ext/concurrence.h \
  C:/mingw64/include/c++/13.2.0/bits/shared_ptr_atomic.h \
  C:/mingw64/include/c++/13.2.0/bits/atomic_base.h \

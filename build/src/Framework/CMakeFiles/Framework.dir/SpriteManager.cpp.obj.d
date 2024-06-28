@@ -392,5 +392,8 @@ src/Framework/CMakeFiles/Framework.dir/SpriteManager.cpp.obj: \
  C:/mingw64/include/c++/13.2.0/bits/stl_numeric.h \
  C:/mingw64/include/c++/13.2.0/pstl/glue_numeric_defs.h \
  C:/mingw64/include/c++/13.2.0/pstl/execution_defs.h \
+ C:/mingw64/include/c++/13.2.0/list \
+ C:/mingw64/include/c++/13.2.0/bits/stl_list.h \
+ C:/mingw64/include/c++/13.2.0/bits/list.tcc \
  D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/third_party/SOIL/include/SOIL/SOIL.h \
  C:/mingw64/include/c++/13.2.0/iostream

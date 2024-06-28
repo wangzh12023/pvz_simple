@@ -222,6 +222,30 @@ CherryBombObject.cpp.s:
 	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build && $(MAKE) $(MAKESILENT) -f src\GameObject\CMakeFiles\GameObject.dir\build.make src/GameObject/CMakeFiles/GameObject.dir/CherryBombObject.cpp.s
 .PHONY : CherryBombObject.cpp.s
 
+CoolDownMaskObject.obj: CoolDownMaskObject.cpp.obj
+.PHONY : CoolDownMaskObject.obj
+
+# target to build an object file
+CoolDownMaskObject.cpp.obj:
+	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build && $(MAKE) $(MAKESILENT) -f src\GameObject\CMakeFiles\GameObject.dir\build.make src/GameObject/CMakeFiles/GameObject.dir/CoolDownMaskObject.cpp.obj
+.PHONY : CoolDownMaskObject.cpp.obj
+
+CoolDownMaskObject.i: CoolDownMaskObject.cpp.i
+.PHONY : CoolDownMaskObject.i
+
+# target to preprocess a source file
+CoolDownMaskObject.cpp.i:
+	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build && $(MAKE) $(MAKESILENT) -f src\GameObject\CMakeFiles\GameObject.dir\build.make src/GameObject/CMakeFiles/GameObject.dir/CoolDownMaskObject.cpp.i
+.PHONY : CoolDownMaskObject.cpp.i
+
+CoolDownMaskObject.s: CoolDownMaskObject.cpp.s
+.PHONY : CoolDownMaskObject.s
+
+# target to generate assembly for a file
+CoolDownMaskObject.cpp.s:
+	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build && $(MAKE) $(MAKESILENT) -f src\GameObject\CMakeFiles\GameObject.dir\build.make src/GameObject/CMakeFiles/GameObject.dir/CoolDownMaskObject.cpp.s
+.PHONY : CoolDownMaskObject.cpp.s
+
 GameObject.obj: GameObject.cpp.obj
 .PHONY : GameObject.obj
 
@@ -438,6 +462,54 @@ SunObject.cpp.s:
 	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build && $(MAKE) $(MAKESILENT) -f src\GameObject\CMakeFiles\GameObject.dir\build.make src/GameObject/CMakeFiles/GameObject.dir/SunObject.cpp.s
 .PHONY : SunObject.cpp.s
 
+SunOfNormalObject.obj: SunOfNormalObject.cpp.obj
+.PHONY : SunOfNormalObject.obj
+
+# target to build an object file
+SunOfNormalObject.cpp.obj:
+	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build && $(MAKE) $(MAKESILENT) -f src\GameObject\CMakeFiles\GameObject.dir\build.make src/GameObject/CMakeFiles/GameObject.dir/SunOfNormalObject.cpp.obj
+.PHONY : SunOfNormalObject.cpp.obj
+
+SunOfNormalObject.i: SunOfNormalObject.cpp.i
+.PHONY : SunOfNormalObject.i
+
+# target to preprocess a source file
+SunOfNormalObject.cpp.i:
+	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build && $(MAKE) $(MAKESILENT) -f src\GameObject\CMakeFiles\GameObject.dir\build.make src/GameObject/CMakeFiles/GameObject.dir/SunOfNormalObject.cpp.i
+.PHONY : SunOfNormalObject.cpp.i
+
+SunOfNormalObject.s: SunOfNormalObject.cpp.s
+.PHONY : SunOfNormalObject.s
+
+# target to generate assembly for a file
+SunOfNormalObject.cpp.s:
+	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build && $(MAKE) $(MAKESILENT) -f src\GameObject\CMakeFiles\GameObject.dir\build.make src/GameObject/CMakeFiles/GameObject.dir/SunOfNormalObject.cpp.s
+.PHONY : SunOfNormalObject.cpp.s
+
+SunOfPlantObject.obj: SunOfPlantObject.cpp.obj
+.PHONY : SunOfPlantObject.obj
+
+# target to build an object file
+SunOfPlantObject.cpp.obj:
+	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build && $(MAKE) $(MAKESILENT) -f src\GameObject\CMakeFiles\GameObject.dir\build.make src/GameObject/CMakeFiles/GameObject.dir/SunOfPlantObject.cpp.obj
+.PHONY : SunOfPlantObject.cpp.obj
+
+SunOfPlantObject.i: SunOfPlantObject.cpp.i
+.PHONY : SunOfPlantObject.i
+
+# target to preprocess a source file
+SunOfPlantObject.cpp.i:
+	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build && $(MAKE) $(MAKESILENT) -f src\GameObject\CMakeFiles\GameObject.dir\build.make src/GameObject/CMakeFiles/GameObject.dir/SunOfPlantObject.cpp.i
+.PHONY : SunOfPlantObject.cpp.i
+
+SunOfPlantObject.s: SunOfPlantObject.cpp.s
+.PHONY : SunOfPlantObject.s
+
+# target to generate assembly for a file
+SunOfPlantObject.cpp.s:
+	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build && $(MAKE) $(MAKESILENT) -f src\GameObject\CMakeFiles\GameObject.dir\build.make src/GameObject/CMakeFiles/GameObject.dir/SunOfPlantObject.cpp.s
+.PHONY : SunOfPlantObject.cpp.s
+
 WallNutObject.obj: WallNutObject.cpp.obj
 .PHONY : WallNutObject.obj
 
@@ -462,6 +534,30 @@ WallNutObject.cpp.s:
 	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build && $(MAKE) $(MAKESILENT) -f src\GameObject\CMakeFiles\GameObject.dir\build.make src/GameObject/CMakeFiles/GameObject.dir/WallNutObject.cpp.s
 .PHONY : WallNutObject.cpp.s
 
+ZombieObject.obj: ZombieObject.cpp.obj
+.PHONY : ZombieObject.obj
+
+# target to build an object file
+ZombieObject.cpp.obj:
+	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build && $(MAKE) $(MAKESILENT) -f src\GameObject\CMakeFiles\GameObject.dir\build.make src/GameObject/CMakeFiles/GameObject.dir/ZombieObject.cpp.obj
+.PHONY : ZombieObject.cpp.obj
+
+ZombieObject.i: ZombieObject.cpp.i
+.PHONY : ZombieObject.i
+
+# target to preprocess a source file
+ZombieObject.cpp.i:
+	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build && $(MAKE) $(MAKESILENT) -f src\GameObject\CMakeFiles\GameObject.dir\build.make src/GameObject/CMakeFiles/GameObject.dir/ZombieObject.cpp.i
+.PHONY : ZombieObject.cpp.i
+
+ZombieObject.s: ZombieObject.cpp.s
+.PHONY : ZombieObject.s
+
+# target to generate assembly for a file
+ZombieObject.cpp.s:
+	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build && $(MAKE) $(MAKESILENT) -f src\GameObject\CMakeFiles\GameObject.dir\build.make src/GameObject/CMakeFiles/GameObject.dir/ZombieObject.cpp.s
+.PHONY : ZombieObject.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -481,6 +577,9 @@ help:
 	@echo ... CherryBombObject.obj
 	@echo ... CherryBombObject.i
 	@echo ... CherryBombObject.s
+	@echo ... CoolDownMaskObject.obj
+	@echo ... CoolDownMaskObject.i
+	@echo ... CoolDownMaskObject.s
 	@echo ... GameObject.obj
 	@echo ... GameObject.i
 	@echo ... GameObject.s
@@ -508,9 +607,18 @@ help:
 	@echo ... SunObject.obj
 	@echo ... SunObject.i
 	@echo ... SunObject.s
+	@echo ... SunOfNormalObject.obj
+	@echo ... SunOfNormalObject.i
+	@echo ... SunOfNormalObject.s
+	@echo ... SunOfPlantObject.obj
+	@echo ... SunOfPlantObject.i
+	@echo ... SunOfPlantObject.s
 	@echo ... WallNutObject.obj
 	@echo ... WallNutObject.i
 	@echo ... WallNutObject.s
+	@echo ... ZombieObject.obj
+	@echo ... ZombieObject.i
+	@echo ... ZombieObject.s
 .PHONY : help
 
 

@@ -40,6 +40,7 @@ src/Framework/CMakeFiles/Framework.dir/GameManager.cpp.obj: D:/Wangzh/p2/cs/skd_
   C:/mingw64/include/c++/13.2.0/bits/invoke.h \
   C:/mingw64/include/c++/13.2.0/bits/ios_base.h \
   C:/mingw64/include/c++/13.2.0/bits/istream.tcc \
+  C:/mingw64/include/c++/13.2.0/bits/list.tcc \
   C:/mingw64/include/c++/13.2.0/bits/locale_classes.h \
   C:/mingw64/include/c++/13.2.0/bits/locale_classes.tcc \
   C:/mingw64/include/c++/13.2.0/bits/locale_conv.h \
@@ -79,6 +80,7 @@ src/Framework/CMakeFiles/Framework.dir/GameManager.cpp.obj: D:/Wangzh/p2/cs/skd_
   C:/mingw64/include/c++/13.2.0/bits/stl_iterator.h \
   C:/mingw64/include/c++/13.2.0/bits/stl_iterator_base_funcs.h \
   C:/mingw64/include/c++/13.2.0/bits/stl_iterator_base_types.h \
+  C:/mingw64/include/c++/13.2.0/bits/stl_list.h \
   C:/mingw64/include/c++/13.2.0/bits/stl_map.h \
   C:/mingw64/include/c++/13.2.0/bits/stl_multimap.h \
   C:/mingw64/include/c++/13.2.0/bits/stl_multiset.h \
@@ -131,6 +133,7 @@ src/Framework/CMakeFiles/Framework.dir/GameManager.cpp.obj: D:/Wangzh/p2/cs/skd_
   C:/mingw64/include/c++/13.2.0/iostream \
   C:/mingw64/include/c++/13.2.0/istream \
   C:/mingw64/include/c++/13.2.0/limits \
+  C:/mingw64/include/c++/13.2.0/list \
   C:/mingw64/include/c++/13.2.0/locale \
   C:/mingw64/include/c++/13.2.0/map \
   C:/mingw64/include/c++/13.2.0/memory \
@@ -445,6 +448,7 @@ src/Framework/CMakeFiles/Framework.dir/ObjectBase.cpp.obj: D:/Wangzh/p2/cs/skd_c
   C:/mingw64/include/c++/13.2.0/bits/invoke.h \
   C:/mingw64/include/c++/13.2.0/bits/ios_base.h \
   C:/mingw64/include/c++/13.2.0/bits/istream.tcc \
+  C:/mingw64/include/c++/13.2.0/bits/list.tcc \
   C:/mingw64/include/c++/13.2.0/bits/locale_classes.h \
   C:/mingw64/include/c++/13.2.0/bits/locale_classes.tcc \
   C:/mingw64/include/c++/13.2.0/bits/locale_facets.h \
@@ -478,6 +482,7 @@ src/Framework/CMakeFiles/Framework.dir/ObjectBase.cpp.obj: D:/Wangzh/p2/cs/skd_c
   C:/mingw64/include/c++/13.2.0/bits/stl_iterator.h \
   C:/mingw64/include/c++/13.2.0/bits/stl_iterator_base_funcs.h \
   C:/mingw64/include/c++/13.2.0/bits/stl_iterator_base_types.h \
+  C:/mingw64/include/c++/13.2.0/bits/stl_list.h \
   C:/mingw64/include/c++/13.2.0/bits/stl_map.h \
   C:/mingw64/include/c++/13.2.0/bits/stl_multimap.h \
   C:/mingw64/include/c++/13.2.0/bits/stl_multiset.h \
@@ -525,6 +530,7 @@ src/Framework/CMakeFiles/Framework.dir/ObjectBase.cpp.obj: D:/Wangzh/p2/cs/skd_c
   C:/mingw64/include/c++/13.2.0/iostream \
   C:/mingw64/include/c++/13.2.0/istream \
   C:/mingw64/include/c++/13.2.0/limits \
+  C:/mingw64/include/c++/13.2.0/list \
   C:/mingw64/include/c++/13.2.0/map \
   C:/mingw64/include/c++/13.2.0/memory \
   C:/mingw64/include/c++/13.2.0/new \
@@ -655,6 +661,7 @@ src/Framework/CMakeFiles/Framework.dir/SpriteManager.cpp.obj: D:/Wangzh/p2/cs/sk
   C:/mingw64/include/c++/13.2.0/bits/invoke.h \
   C:/mingw64/include/c++/13.2.0/bits/ios_base.h \
   C:/mingw64/include/c++/13.2.0/bits/istream.tcc \
+  C:/mingw64/include/c++/13.2.0/bits/list.tcc \
   C:/mingw64/include/c++/13.2.0/bits/locale_classes.h \
   C:/mingw64/include/c++/13.2.0/bits/locale_classes.tcc \
   C:/mingw64/include/c++/13.2.0/bits/locale_conv.h \
@@ -693,6 +700,7 @@ src/Framework/CMakeFiles/Framework.dir/SpriteManager.cpp.obj: D:/Wangzh/p2/cs/sk
   C:/mingw64/include/c++/13.2.0/bits/stl_iterator.h \
   C:/mingw64/include/c++/13.2.0/bits/stl_iterator_base_funcs.h \
   C:/mingw64/include/c++/13.2.0/bits/stl_iterator_base_types.h \
+  C:/mingw64/include/c++/13.2.0/bits/stl_list.h \
   C:/mingw64/include/c++/13.2.0/bits/stl_numeric.h \
   C:/mingw64/include/c++/13.2.0/bits/stl_pair.h \
   C:/mingw64/include/c++/13.2.0/bits/stl_uninitialized.h \
@@ -738,6 +746,7 @@ src/Framework/CMakeFiles/Framework.dir/SpriteManager.cpp.obj: D:/Wangzh/p2/cs/sk
   C:/mingw64/include/c++/13.2.0/iostream \
   C:/mingw64/include/c++/13.2.0/istream \
   C:/mingw64/include/c++/13.2.0/limits \
+  C:/mingw64/include/c++/13.2.0/list \
   C:/mingw64/include/c++/13.2.0/locale \
   C:/mingw64/include/c++/13.2.0/new \
   C:/mingw64/include/c++/13.2.0/numeric \
@@ -1045,6 +1054,7 @@ src/Framework/CMakeFiles/Framework.dir/TextBase.cpp.obj: D:/Wangzh/p2/cs/skd_cou
   C:/mingw64/include/c++/13.2.0/bits/invoke.h \
   C:/mingw64/include/c++/13.2.0/bits/ios_base.h \
   C:/mingw64/include/c++/13.2.0/bits/istream.tcc \
+  C:/mingw64/include/c++/13.2.0/bits/list.tcc \
   C:/mingw64/include/c++/13.2.0/bits/locale_classes.h \
   C:/mingw64/include/c++/13.2.0/bits/locale_classes.tcc \
   C:/mingw64/include/c++/13.2.0/bits/locale_facets.h \
@@ -1078,6 +1088,7 @@ src/Framework/CMakeFiles/Framework.dir/TextBase.cpp.obj: D:/Wangzh/p2/cs/skd_cou
   C:/mingw64/include/c++/13.2.0/bits/stl_iterator.h \
   C:/mingw64/include/c++/13.2.0/bits/stl_iterator_base_funcs.h \
   C:/mingw64/include/c++/13.2.0/bits/stl_iterator_base_types.h \
+  C:/mingw64/include/c++/13.2.0/bits/stl_list.h \
   C:/mingw64/include/c++/13.2.0/bits/stl_map.h \
   C:/mingw64/include/c++/13.2.0/bits/stl_multimap.h \
   C:/mingw64/include/c++/13.2.0/bits/stl_multiset.h \
@@ -1125,6 +1136,7 @@ src/Framework/CMakeFiles/Framework.dir/TextBase.cpp.obj: D:/Wangzh/p2/cs/skd_cou
   C:/mingw64/include/c++/13.2.0/iostream \
   C:/mingw64/include/c++/13.2.0/istream \
   C:/mingw64/include/c++/13.2.0/limits \
+  C:/mingw64/include/c++/13.2.0/list \
   C:/mingw64/include/c++/13.2.0/map \
   C:/mingw64/include/c++/13.2.0/memory \
   C:/mingw64/include/c++/13.2.0/new \
@@ -1251,6 +1263,7 @@ src/Framework/CMakeFiles/Framework.dir/WorldBase.cpp.obj: D:/Wangzh/p2/cs/skd_co
   C:/mingw64/include/c++/13.2.0/bits/invoke.h \
   C:/mingw64/include/c++/13.2.0/bits/ios_base.h \
   C:/mingw64/include/c++/13.2.0/bits/istream.tcc \
+  C:/mingw64/include/c++/13.2.0/bits/list.tcc \
   C:/mingw64/include/c++/13.2.0/bits/locale_classes.h \
   C:/mingw64/include/c++/13.2.0/bits/locale_classes.tcc \
   C:/mingw64/include/c++/13.2.0/bits/locale_facets.h \
@@ -1284,6 +1297,7 @@ src/Framework/CMakeFiles/Framework.dir/WorldBase.cpp.obj: D:/Wangzh/p2/cs/skd_co
   C:/mingw64/include/c++/13.2.0/bits/stl_iterator.h \
   C:/mingw64/include/c++/13.2.0/bits/stl_iterator_base_funcs.h \
   C:/mingw64/include/c++/13.2.0/bits/stl_iterator_base_types.h \
+  C:/mingw64/include/c++/13.2.0/bits/stl_list.h \
   C:/mingw64/include/c++/13.2.0/bits/stl_map.h \
   C:/mingw64/include/c++/13.2.0/bits/stl_multimap.h \
   C:/mingw64/include/c++/13.2.0/bits/stl_multiset.h \
@@ -1331,6 +1345,7 @@ src/Framework/CMakeFiles/Framework.dir/WorldBase.cpp.obj: D:/Wangzh/p2/cs/skd_co
   C:/mingw64/include/c++/13.2.0/iostream \
   C:/mingw64/include/c++/13.2.0/istream \
   C:/mingw64/include/c++/13.2.0/limits \
+  C:/mingw64/include/c++/13.2.0/list \
   C:/mingw64/include/c++/13.2.0/map \
   C:/mingw64/include/c++/13.2.0/memory \
   C:/mingw64/include/c++/13.2.0/new \
@@ -1632,6 +1647,7 @@ src/Framework/CMakeFiles/Framework.dir/__/GameWorld/GameWorld.cpp.obj: D:/Wangzh
   D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/Framework/WorldBase.hpp \
   D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/BackgroundObject.hpp \
   D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/CherryBombObject.hpp \
+  D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/CoolDownMaskObject.hpp \
   D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/GameObject.hpp \
   D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/PeaShooterObject.hpp \
   D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/PlantingPosObject.hpp \
@@ -1641,23 +1657,26 @@ src/Framework/CMakeFiles/Framework.dir/__/GameWorld/GameWorld.cpp.obj: D:/Wangzh
   D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/ShovelObject.hpp \
   D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/SunFlowerObject.hpp \
   D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/SunObject.hpp \
+  D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/SunOfNormalObject.hpp \
+  D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/SunOfPlantObject.hpp \
   D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/WallNutObject.hpp \
+  D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/ZombieObject.hpp \
   D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameWorld/GameWorld.hpp \
   D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/utils.hpp \
   D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameWorld/GameWorld.hpp
 
+
+D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/ZombieObject.hpp:
+
+D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/SunOfPlantObject.hpp:
+
+D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/SunOfNormalObject.hpp:
 
 D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/RepeaterObject.hpp:
 
 D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/PlantingPosObject.hpp:
 
 D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/PeaShooterObject.hpp:
-
-D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/BackgroundObject.hpp:
-
-C:/mingw64/include/c++/13.2.0/list:
-
-C:/mingw64/include/c++/13.2.0/bits/stl_list.h:
 
 D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameWorld/GameWorld.cpp:
 
@@ -1775,6 +1794,8 @@ C:/mingw64/x86_64-w64-mingw32/include/fibersapi.h:
 
 C:/mingw64/x86_64-w64-mingw32/include/errno.h:
 
+D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/CoolDownMaskObject.hpp:
+
 C:/mingw64/x86_64-w64-mingw32/include/errhandlingapi.h:
 
 C:/mingw64/x86_64-w64-mingw32/include/heapapi.h:
@@ -1871,6 +1892,14 @@ C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/sgxintrin.h:
 
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/serializeintrin.h:
 
+C:/mingw64/x86_64-w64-mingw32/include/windef.h:
+
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/raointintrin.h:
+
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/prfchwintrin.h:
+
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/prfchiintrin.h:
+
 C:/mingw64/include/c++/13.2.0/filesystem:
 
 C:/mingw64/include/c++/13.2.0/ext/string_conversions.h:
@@ -1878,10 +1907,6 @@ C:/mingw64/include/c++/13.2.0/ext/string_conversions.h:
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/bmi2intrin.h:
 
 C:/mingw64/include/c++/13.2.0/initializer_list:
-
-C:/mingw64/x86_64-w64-mingw32/include/windef.h:
-
-C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/raointintrin.h:
 
 C:/mingw64/include/c++/13.2.0/ext/type_traits.h:
 
@@ -1916,6 +1941,8 @@ C:/mingw64/include/c++/13.2.0/backward/auto_ptr.h:
 C:/mingw64/x86_64-w64-mingw32/include/_mingw_unicode.h:
 
 C:/mingw64/include/c++/13.2.0/codecvt:
+
+C:/mingw64/include/c++/13.2.0/bits/stl_list.h:
 
 C:/mingw64/include/c++/13.2.0/bits/utility.h:
 
@@ -2019,6 +2046,16 @@ C:/mingw64/include/c++/13.2.0/bits/quoted_string.h:
 
 C:/mingw64/include/c++/13.2.0/bits/ostream_insert.h:
 
+C:/mingw64/include/c++/13.2.0/bits/ptr_traits.h:
+
+D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/Framework/SpriteManager.hpp:
+
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/avx512vldqintrin.h:
+
+C:/mingw64/x86_64-w64-mingw32/include/ioapiset.h:
+
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/emmintrin.h:
+
 C:/mingw64/include/c++/13.2.0/sstream:
 
 C:/mingw64/include/c++/13.2.0/tr1/poly_laguerre.tcc:
@@ -2056,6 +2093,10 @@ C:/mingw64/include/c++/13.2.0/pstl/pstl_config.h:
 C:/mingw64/include/c++/13.2.0/bits/stl_multimap.h:
 
 C:/mingw64/include/c++/13.2.0/bits/chrono.h:
+
+D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/BackgroundObject.hpp:
+
+C:/mingw64/include/c++/13.2.0/list:
 
 C:/mingw64/include/c++/13.2.0/bits/cxxabi_forced.h:
 
@@ -2161,16 +2202,6 @@ C:/mingw64/include/c++/13.2.0/ios:
 
 C:/mingw64/include/c++/13.2.0/bits/fs_path.h:
 
-C:/mingw64/include/c++/13.2.0/bits/ptr_traits.h:
-
-D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/Framework/SpriteManager.hpp:
-
-C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/avx512vldqintrin.h:
-
-C:/mingw64/x86_64-w64-mingw32/include/ioapiset.h:
-
-C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/emmintrin.h:
-
 C:/mingw64/include/c++/13.2.0/ext/aligned_buffer.h:
 
 C:/mingw64/include/c++/13.2.0/bits/specfun.h:
@@ -2194,8 +2225,6 @@ C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/avx512dqintrin.h:
 C:/mingw64/include/c++/13.2.0/bits/vector.tcc:
 
 C:/mingw64/include/c++/13.2.0/tr1/bessel_function.tcc:
-
-C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/prfchwintrin.h:
 
 C:/mingw64/x86_64-w64-mingw32/include/wchar.h:
 
@@ -2390,8 +2419,6 @@ C:/mingw64/x86_64-w64-mingw32/include/pshpack8.h:
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/avx512vp2intersectintrin.h:
 
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/amxbf16intrin.h:
-
-C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/prfchiintrin.h:
 
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/amxtileintrin.h:
 
