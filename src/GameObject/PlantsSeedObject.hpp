@@ -4,8 +4,8 @@
 class GameWorld;
 class PlantsSeedObject : public GameObject {
 public:
-  PlantsSeedObject(ImageID imageID, int x, int y, LayerID layer, int width, int height, AnimID animID, ObjectType objectType, int sunCost, int coolTime, PlantsType type, pGameWorld gameWorld ):
-    GameObject(imageID, x, y, layer, width, height, animID, objectType), m_sunCost(sunCost), m_coolTime(coolTime), m_type(type), m_gameWorld(gameWorld) {};
+  PlantsSeedObject(ImageID imageID, int x, int y, LayerID layer, int width, int height, AnimID animID, int sunCost, int coolTime, PlantsType type, pGameWorld gameWorld ):
+    GameObject(imageID, x, y, layer, width, height, animID), m_sunCost(sunCost), m_coolTime(coolTime), m_type(type), m_gameWorld(gameWorld) {};
 
   virtual ~PlantsSeedObject(){};
 

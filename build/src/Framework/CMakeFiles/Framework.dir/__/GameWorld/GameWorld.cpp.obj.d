@@ -222,4 +222,5 @@ src/Framework/CMakeFiles/Framework.dir/__/GameWorld/GameWorld.cpp.obj: \
  D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/SunOfPlantObject.hpp \
  D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/SunObject.hpp \
  D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/SunOfNormalObject.hpp \
+ D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/PeaObject.hpp \
  C:/mingw64/include/c++/13.2.0/format

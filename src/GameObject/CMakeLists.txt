@@ -33,6 +33,10 @@ add_library(
   SunOfPlantObject.cpp
   PeaObject.hpp
   PeaObject.cpp
+  CoolDownMaskObject.hpp
+  CoolDownMaskObject.cpp
+  ZombieObject.hpp
+  ZombieObject.cpp
 )
 
 target_link_libraries(

@@ -265,7 +265,7 @@ void GameWorld::AttackPlant(int x, int y, int damage){
   }
 }
 
-void AddSunOfPlant(int x, int y){
+void GameWorld::AddSunOfPlant(int x, int y){
   auto sun = std::make_shared<SunOfPlantObject>(IMGID_SUN, x, y, LAYER_SUN, SUN_WIDTH, SUN_HEIGHT, ANIMID_IDLE_ANIM, shared_from_this());
   m_GameList.push_back(sun);
 }

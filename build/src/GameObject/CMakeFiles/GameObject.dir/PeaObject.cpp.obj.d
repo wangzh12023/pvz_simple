@@ -1,7 +1,6 @@
-src/GameObject/CMakeFiles/GameObject.dir/RepeaterObject.cpp.obj: \
- D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\src\GameObject\RepeaterObject.cpp \
- D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\src\GameObject\RepeaterObject.hpp \
- D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\src\GameObject\PlantsObject.hpp \
+src/GameObject/CMakeFiles/GameObject.dir/PeaObject.cpp.obj: \
+ D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\src\GameObject\PeaObject.cpp \
+ D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\src\GameObject\PeaObject.hpp \
  D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\src\GameObject\GameObject.hpp \
  C:/mingw64/include/c++/13.2.0/memory \
  C:/mingw64/include/c++/13.2.0/bits/memoryfwd.h \
