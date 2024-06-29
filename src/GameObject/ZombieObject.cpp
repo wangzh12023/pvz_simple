@@ -23,6 +23,10 @@ void BucketHeadZombieObject::Update() {
 }
 
 void RegularZombieObject::Update() {
+  if (GetStatus() == true){
+    SetHP(GetHP() - PEAS_DAMAGE);
+    ChangeStatus(false);
+  }
   if (m_gameWorld->CollideCheck(GetX(), GetY())){
     if (GetCurrentAnimation() != ANIMID_EAT_ANIM){
       PlayAnimation(ANIMID_EAT_ANIM);

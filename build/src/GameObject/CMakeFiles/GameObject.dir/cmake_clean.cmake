@@ -5,10 +5,10 @@ file(REMOVE_RECURSE
   "CMakeFiles/GameObject.dir/BackgroundObject.cpp.obj.d"
   "CMakeFiles/GameObject.dir/CherryBombObject.cpp.obj"
   "CMakeFiles/GameObject.dir/CherryBombObject.cpp.obj.d"
-  "CMakeFiles/GameObject.dir/CoolDownMaskObject.cpp.obj"
-  "CMakeFiles/GameObject.dir/CoolDownMaskObject.cpp.obj.d"
   "CMakeFiles/GameObject.dir/GameObject.cpp.obj"
   "CMakeFiles/GameObject.dir/GameObject.cpp.obj.d"
+  "CMakeFiles/GameObject.dir/PeaObject.cpp.obj"
+  "CMakeFiles/GameObject.dir/PeaObject.cpp.obj.d"
   "CMakeFiles/GameObject.dir/PeaShooterObject.cpp.obj"
   "CMakeFiles/GameObject.dir/PeaShooterObject.cpp.obj.d"
   "CMakeFiles/GameObject.dir/PlantingPosObject.cpp.obj"
@@ -31,8 +31,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/GameObject.dir/SunOfPlantObject.cpp.obj.d"
   "CMakeFiles/GameObject.dir/WallNutObject.cpp.obj"
   "CMakeFiles/GameObject.dir/WallNutObject.cpp.obj.d"
-  "CMakeFiles/GameObject.dir/ZombieObject.cpp.obj"
-  "CMakeFiles/GameObject.dir/ZombieObject.cpp.obj.d"
 )
 
 # Per-language clean rules from dependency scanning.

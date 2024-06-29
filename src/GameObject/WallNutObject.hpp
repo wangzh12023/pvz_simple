@@ -8,8 +8,8 @@
 class WallNutObject : public PlantsObject
 { 
 public:
-  WallNutObject(ImageID imageID, int x, int y, LayerID layer, int width, int height, AnimID animID, pGameWorld gameWorld, PlantsType type = PlantsType::WALLNUT, int hp = 4000):
-    PlantsObject(imageID, x, y, layer, width, height, animID, gameWorld, type, hp) {};
+  WallNutObject(ImageID imageID, int x, int y, LayerID layer, int width, int height, AnimID animID,ObjectType objectType,  pGameWorld gameWorld, PlantsType type = PlantsType::WALLNUT, int hp = 4000):
+    PlantsObject(imageID, x, y, layer, width, height, animID,objectType, gameWorld, type, hp) {};
 
   virtual ~WallNutObject(){};
 

@@ -8,8 +8,8 @@ class GameWorld;
 class SunFlowerObject : public PlantsObject
 { 
 public:
-  SunFlowerObject(ImageID imageID, int x, int y, LayerID layer, int width, int height, AnimID animID, pGameWorld gameWorld, PlantsType type = PlantsType::SUNFLOWER, int hp = 300, int sunFlowerGenerateTime = 5):
-    PlantsObject(imageID, x, y, layer, width, height, animID, gameWorld, type, hp), m_sunFlowerGenerateTime(sunFlowerGenerateTime) {};
+  SunFlowerObject(ImageID imageID, int x, int y, LayerID layer, int width, int height, AnimID animID, ObjectType objectType, pGameWorld gameWorld, PlantsType type = PlantsType::SUNFLOWER, int hp = 300, int sunFlowerGenerateTime = 5):
+    PlantsObject(imageID, x, y, layer, width, height, animID,objectType, gameWorld, type, hp), m_sunFlowerGenerateTime(sunFlowerGenerateTime) {};
 
   virtual ~SunFlowerObject(){};
 

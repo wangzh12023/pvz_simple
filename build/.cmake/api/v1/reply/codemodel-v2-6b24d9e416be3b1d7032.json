@@ -168,7 +168,7 @@
 				{
 					"directoryIndex" : 4,
 					"id" : "GameObject::@cf4d02a5657504c132a7",
-					"jsonFile" : "target-GameObject-Debug-a2bad51527f5887a651b.json",
+					"jsonFile" : "target-GameObject-Debug-4d55f845d305ec6d8c59.json",
 					"name" : "GameObject",
 					"projectIndex" : 0
 				},
@@ -182,7 +182,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "PvZ::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-PvZ-Debug-3724f64184a3e2bcd9e6.json",
+					"jsonFile" : "target-PvZ-Debug-0cb72c377e29b4882924.json",
 					"name" : "PvZ",
 					"projectIndex" : 0
 				},

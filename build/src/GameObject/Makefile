@@ -222,30 +222,6 @@ CherryBombObject.cpp.s:
 	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build && $(MAKE) $(MAKESILENT) -f src\GameObject\CMakeFiles\GameObject.dir\build.make src/GameObject/CMakeFiles/GameObject.dir/CherryBombObject.cpp.s
 .PHONY : CherryBombObject.cpp.s
 
-CoolDownMaskObject.obj: CoolDownMaskObject.cpp.obj
-.PHONY : CoolDownMaskObject.obj
-
-# target to build an object file
-CoolDownMaskObject.cpp.obj:
-	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build && $(MAKE) $(MAKESILENT) -f src\GameObject\CMakeFiles\GameObject.dir\build.make src/GameObject/CMakeFiles/GameObject.dir/CoolDownMaskObject.cpp.obj
-.PHONY : CoolDownMaskObject.cpp.obj
-
-CoolDownMaskObject.i: CoolDownMaskObject.cpp.i
-.PHONY : CoolDownMaskObject.i
-
-# target to preprocess a source file
-CoolDownMaskObject.cpp.i:
-	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build && $(MAKE) $(MAKESILENT) -f src\GameObject\CMakeFiles\GameObject.dir\build.make src/GameObject/CMakeFiles/GameObject.dir/CoolDownMaskObject.cpp.i
-.PHONY : CoolDownMaskObject.cpp.i
-
-CoolDownMaskObject.s: CoolDownMaskObject.cpp.s
-.PHONY : CoolDownMaskObject.s
-
-# target to generate assembly for a file
-CoolDownMaskObject.cpp.s:
-	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build && $(MAKE) $(MAKESILENT) -f src\GameObject\CMakeFiles\GameObject.dir\build.make src/GameObject/CMakeFiles/GameObject.dir/CoolDownMaskObject.cpp.s
-.PHONY : CoolDownMaskObject.cpp.s
-
 GameObject.obj: GameObject.cpp.obj
 .PHONY : GameObject.obj
 
@@ -269,6 +245,30 @@ GameObject.s: GameObject.cpp.s
 GameObject.cpp.s:
 	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build && $(MAKE) $(MAKESILENT) -f src\GameObject\CMakeFiles\GameObject.dir\build.make src/GameObject/CMakeFiles/GameObject.dir/GameObject.cpp.s
 .PHONY : GameObject.cpp.s
+
+PeaObject.obj: PeaObject.cpp.obj
+.PHONY : PeaObject.obj
+
+# target to build an object file
+PeaObject.cpp.obj:
+	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build && $(MAKE) $(MAKESILENT) -f src\GameObject\CMakeFiles\GameObject.dir\build.make src/GameObject/CMakeFiles/GameObject.dir/PeaObject.cpp.obj
+.PHONY : PeaObject.cpp.obj
+
+PeaObject.i: PeaObject.cpp.i
+.PHONY : PeaObject.i
+
+# target to preprocess a source file
+PeaObject.cpp.i:
+	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build && $(MAKE) $(MAKESILENT) -f src\GameObject\CMakeFiles\GameObject.dir\build.make src/GameObject/CMakeFiles/GameObject.dir/PeaObject.cpp.i
+.PHONY : PeaObject.cpp.i
+
+PeaObject.s: PeaObject.cpp.s
+.PHONY : PeaObject.s
+
+# target to generate assembly for a file
+PeaObject.cpp.s:
+	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build && $(MAKE) $(MAKESILENT) -f src\GameObject\CMakeFiles\GameObject.dir\build.make src/GameObject/CMakeFiles/GameObject.dir/PeaObject.cpp.s
+.PHONY : PeaObject.cpp.s
 
 PeaShooterObject.obj: PeaShooterObject.cpp.obj
 .PHONY : PeaShooterObject.obj
@@ -534,30 +534,6 @@ WallNutObject.cpp.s:
 	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build && $(MAKE) $(MAKESILENT) -f src\GameObject\CMakeFiles\GameObject.dir\build.make src/GameObject/CMakeFiles/GameObject.dir/WallNutObject.cpp.s
 .PHONY : WallNutObject.cpp.s
 
-ZombieObject.obj: ZombieObject.cpp.obj
-.PHONY : ZombieObject.obj
-
-# target to build an object file
-ZombieObject.cpp.obj:
-	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build && $(MAKE) $(MAKESILENT) -f src\GameObject\CMakeFiles\GameObject.dir\build.make src/GameObject/CMakeFiles/GameObject.dir/ZombieObject.cpp.obj
-.PHONY : ZombieObject.cpp.obj
-
-ZombieObject.i: ZombieObject.cpp.i
-.PHONY : ZombieObject.i
-
-# target to preprocess a source file
-ZombieObject.cpp.i:
-	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build && $(MAKE) $(MAKESILENT) -f src\GameObject\CMakeFiles\GameObject.dir\build.make src/GameObject/CMakeFiles/GameObject.dir/ZombieObject.cpp.i
-.PHONY : ZombieObject.cpp.i
-
-ZombieObject.s: ZombieObject.cpp.s
-.PHONY : ZombieObject.s
-
-# target to generate assembly for a file
-ZombieObject.cpp.s:
-	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build && $(MAKE) $(MAKESILENT) -f src\GameObject\CMakeFiles\GameObject.dir\build.make src/GameObject/CMakeFiles/GameObject.dir/ZombieObject.cpp.s
-.PHONY : ZombieObject.cpp.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -577,12 +553,12 @@ help:
 	@echo ... CherryBombObject.obj
 	@echo ... CherryBombObject.i
 	@echo ... CherryBombObject.s
-	@echo ... CoolDownMaskObject.obj
-	@echo ... CoolDownMaskObject.i
-	@echo ... CoolDownMaskObject.s
 	@echo ... GameObject.obj
 	@echo ... GameObject.i
 	@echo ... GameObject.s
+	@echo ... PeaObject.obj
+	@echo ... PeaObject.i
+	@echo ... PeaObject.s
 	@echo ... PeaShooterObject.obj
 	@echo ... PeaShooterObject.i
 	@echo ... PeaShooterObject.s
@@ -616,9 +592,6 @@ help:
 	@echo ... WallNutObject.obj
 	@echo ... WallNutObject.i
 	@echo ... WallNutObject.s
-	@echo ... ZombieObject.obj
-	@echo ... ZombieObject.i
-	@echo ... ZombieObject.s
 .PHONY : help
 
 

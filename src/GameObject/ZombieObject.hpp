@@ -7,14 +7,17 @@ class GameWorld;
 
 class ZombieObject : public GameObject{
   public:
-    ZombieObject(ImageID imageID, int x, int y, LayerID layer, int width, int height, AnimID animID, pGameWorld gameWorld, ZombieType type, int hp):
-      GameObject(imageID, x, y, layer, width, height, animID), m_gameWorld(gameWorld), m_type(type), m_hp(hp){};
+    ZombieObject(ImageID imageID, int x, int y, LayerID layer, int width, int height, AnimID animID,ObjectType objectType,  pGameWorld gameWorld, ZombieType type, int hp):
+      GameObject(imageID, x, y, layer, width, height, animID,objectType), m_gameWorld(gameWorld), m_type(type), m_hp(hp){};
 
     virtual ~ZombieObject(){};
     virtual void Update(){};
     void OnClick() override{};
     int GetHP() const{
       return m_hp;
+    }
+    void SetHP(int hp){
+      m_hp = hp;
     }
   protected:
     pGameWorld m_gameWorld;
@@ -26,8 +29,8 @@ class ZombieObject : public GameObject{
 
 class RegularZombieObject : public ZombieObject{
   public:
-    RegularZombieObject(ImageID imageID, int x, int y, LayerID layer, int width, int height, AnimID animID, pGameWorld gameWorld, ZombieType type, int hp, bool ifCanJump = false):
-      ZombieObject(imageID, x, y, layer, width, height, animID, gameWorld, type, hp){};
+    RegularZombieObject(ImageID imageID, int x, int y, LayerID layer, int width, int height, AnimID animID,ObjectType objectType,  pGameWorld gameWorld, ZombieType type, int hp, bool ifCanJump = false):
+      ZombieObject(imageID, x, y, layer, width, height, animID,objectType, gameWorld, type, hp){};
 
     virtual ~RegularZombieObject(){};
     void Update() override;
@@ -36,8 +39,8 @@ class RegularZombieObject : public ZombieObject{
 
 class BucketHeadZombieObject : public ZombieObject{
   public:
-    BucketHeadZombieObject(ImageID imageID, int x, int y, LayerID layer, int width, int height, AnimID animID, pGameWorld gameWorld, ZombieType type, int hp, bool ifCanJump = false):
-      ZombieObject(imageID, x, y, layer, width, height, animID, gameWorld, type, hp){};
+    BucketHeadZombieObject(ImageID imageID, int x, int y, LayerID layer, int width, int height, AnimID animID,ObjectType objectType,  pGameWorld gameWorld, ZombieType type, int hp, bool ifCanJump = false):
+      ZombieObject(imageID, x, y, layer, width, height, animID,objectType ,gameWorld, type, hp){};
     virtual ~BucketHeadZombieObject(){};
     void Update() override;
     void OnClick() override{};

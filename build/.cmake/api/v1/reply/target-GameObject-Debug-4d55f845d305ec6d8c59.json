@@ -33,13 +33,13 @@
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 41,
+				"line" : 38,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 46,
+				"line" : 43,
 				"parent" : 0
 			}
 		]
@@ -105,8 +105,7 @@
 				23,
 				25,
 				27,
-				29,
-				31
+				29
 			]
 		}
 	],
@@ -153,8 +152,7 @@
 				22,
 				24,
 				26,
-				28,
-				30
+				28
 			]
 		},
 		{
@@ -175,8 +173,7 @@
 				23,
 				25,
 				27,
-				29,
-				31
+				29
 			]
 		}
 	],
@@ -316,24 +313,13 @@
 		},
 		{
 			"backtrace" : 1,
-			"path" : "src/GameObject/CoolDownMaskObject.hpp",
+			"path" : "src/GameObject/SunOfNormalObject.hpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/GameObject/CoolDownMaskObject.cpp",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"path" : "src/GameObject/ZombieObject.hpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "src/GameObject/ZombieObject.cpp",
+			"path" : "src/GameObject/SunOfNormalObject.cpp",
 			"sourceGroupIndex" : 1
 		},
 		{
@@ -349,13 +335,13 @@
 		},
 		{
 			"backtrace" : 1,
-			"path" : "src/GameObject/SunOfNormalObject.hpp",
+			"path" : "src/GameObject/PeaObject.hpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/GameObject/SunOfNormalObject.cpp",
+			"path" : "src/GameObject/PeaObject.cpp",
 			"sourceGroupIndex" : 1
 		}
 	],

@@ -10,8 +10,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/BackgroundObject.cpp" "src/GameObject/CMakeFiles/GameObject.dir/BackgroundObject.cpp.obj" "gcc" "src/GameObject/CMakeFiles/GameObject.dir/BackgroundObject.cpp.obj.d"
   "D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/CherryBombObject.cpp" "src/GameObject/CMakeFiles/GameObject.dir/CherryBombObject.cpp.obj" "gcc" "src/GameObject/CMakeFiles/GameObject.dir/CherryBombObject.cpp.obj.d"
-  "D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/CoolDownMaskObject.cpp" "src/GameObject/CMakeFiles/GameObject.dir/CoolDownMaskObject.cpp.obj" "gcc" "src/GameObject/CMakeFiles/GameObject.dir/CoolDownMaskObject.cpp.obj.d"
   "D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/GameObject.cpp" "src/GameObject/CMakeFiles/GameObject.dir/GameObject.cpp.obj" "gcc" "src/GameObject/CMakeFiles/GameObject.dir/GameObject.cpp.obj.d"
+  "D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/PeaObject.cpp" "src/GameObject/CMakeFiles/GameObject.dir/PeaObject.cpp.obj" "gcc" "src/GameObject/CMakeFiles/GameObject.dir/PeaObject.cpp.obj.d"
   "D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/PeaShooterObject.cpp" "src/GameObject/CMakeFiles/GameObject.dir/PeaShooterObject.cpp.obj" "gcc" "src/GameObject/CMakeFiles/GameObject.dir/PeaShooterObject.cpp.obj.d"
   "D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/PlantingPosObject.cpp" "src/GameObject/CMakeFiles/GameObject.dir/PlantingPosObject.cpp.obj" "gcc" "src/GameObject/CMakeFiles/GameObject.dir/PlantingPosObject.cpp.obj.d"
   "D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/PlantsObject.cpp" "src/GameObject/CMakeFiles/GameObject.dir/PlantsObject.cpp.obj" "gcc" "src/GameObject/CMakeFiles/GameObject.dir/PlantsObject.cpp.obj.d"
@@ -23,7 +23,6 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/SunOfNormalObject.cpp" "src/GameObject/CMakeFiles/GameObject.dir/SunOfNormalObject.cpp.obj" "gcc" "src/GameObject/CMakeFiles/GameObject.dir/SunOfNormalObject.cpp.obj.d"
   "D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/SunOfPlantObject.cpp" "src/GameObject/CMakeFiles/GameObject.dir/SunOfPlantObject.cpp.obj" "gcc" "src/GameObject/CMakeFiles/GameObject.dir/SunOfPlantObject.cpp.obj.d"
   "D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/WallNutObject.cpp" "src/GameObject/CMakeFiles/GameObject.dir/WallNutObject.cpp.obj" "gcc" "src/GameObject/CMakeFiles/GameObject.dir/WallNutObject.cpp.obj.d"
-  "D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/ZombieObject.cpp" "src/GameObject/CMakeFiles/GameObject.dir/ZombieObject.cpp.obj" "gcc" "src/GameObject/CMakeFiles/GameObject.dir/ZombieObject.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

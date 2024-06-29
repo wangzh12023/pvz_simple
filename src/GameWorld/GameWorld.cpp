@@ -132,7 +132,7 @@ void GameWorld::AddGameObject(PlantsType type, int x, int y) {
 void GameWorld::SunFlowerAdd(int x, int y) {
   if (m_Sun < SUN_COST_SUNFLOWER) return;
   m_Sun -= SUN_COST_SUNFLOWER;
-  auto sunFlower = std::make_shared<SunFlowerObject>(IMGID_SUNFLOWER, x, y, LAYER_PLANTS, LAWN_GRID_WIDTH, LAWN_GRID_HEIGHT, ANIMID_IDLE_ANIM, shared_from_this());
+  auto sunFlower = std::make_shared<SunFlowerObject>(IMGID_SUNFLOWER, x, y, LAYER_PLANTS, LAWN_GRID_WIDTH, LAWN_GRID_HEIGHT, ANIMID_IDLE_ANIM,ObjectType::Plant ,shared_from_this());
   m_GameList.push_back(sunFlower);
   m_PlantTypeChoosingNow = PlantsType::NONE;
   auto sunMask = std::make_shared<CoolDownMaskObject>(IMGID_COOLDOWN_MASK, FIRST_SEED_COL_CENTER, SEED_ROW_CENTER, LAYER_COOLDOWN_MASK, SEED_WIDTH, SEED_HEIGHT, ANIMID_NO_ANIMATION, shared_from_this(), SUNFLOWER_COOLDOWN);
@@ -141,7 +141,7 @@ void GameWorld::SunFlowerAdd(int x, int y) {
 void GameWorld::PeaShooterAdd(int x, int y) {
   if (m_Sun < SUN_COST_PEASHOOTER) return;
   m_Sun -= SUN_COST_PEASHOOTER;
-  auto peaShooter = std::make_shared<PeaShooterObject>(IMGID_PEASHOOTER, x, y, LAYER_PLANTS, LAWN_GRID_WIDTH, LAWN_GRID_HEIGHT, ANIMID_IDLE_ANIM, shared_from_this());
+  auto peaShooter = std::make_shared<PeaShooterObject>(IMGID_PEASHOOTER, x, y, LAYER_PLANTS, LAWN_GRID_WIDTH, LAWN_GRID_HEIGHT, ANIMID_IDLE_ANIM, ObjectType::Plant, shared_from_this());
   m_GameList.push_back(peaShooter);
   m_PlantTypeChoosingNow = PlantsType::NONE;
   auto peaMask = std::make_shared<CoolDownMaskObject>(IMGID_COOLDOWN_MASK, FIRST_SEED_COL_CENTER + SEED_WIDTH, SEED_ROW_CENTER, LAYER_COOLDOWN_MASK, SEED_WIDTH, SEED_HEIGHT, ANIMID_NO_ANIMATION, shared_from_this(), PEASHOOTER_COOLDOWN);
@@ -150,7 +150,7 @@ void GameWorld::PeaShooterAdd(int x, int y) {
 void GameWorld::WallNutAdd(int x, int y) {
   if (m_Sun < SUN_COST_WALLNUT) return;
   m_Sun -= SUN_COST_WALLNUT;
-  auto wallNut = std::make_shared<WallNutObject>(IMGID_WALLNUT, x, y, LAYER_PLANTS, LAWN_GRID_WIDTH, LAWN_GRID_HEIGHT, ANIMID_IDLE_ANIM, shared_from_this());
+  auto wallNut = std::make_shared<WallNutObject>(IMGID_WALLNUT, x, y, LAYER_PLANTS, LAWN_GRID_WIDTH, LAWN_GRID_HEIGHT, ANIMID_IDLE_ANIM, ObjectType::Plant, shared_from_this());
   m_GameList.push_back(wallNut);
   m_PlantTypeChoosingNow = PlantsType::NONE;
   auto wallMask = std::make_shared<CoolDownMaskObject>(IMGID_COOLDOWN_MASK, FIRST_SEED_COL_CENTER + 2 * SEED_WIDTH, SEED_ROW_CENTER, LAYER_COOLDOWN_MASK, SEED_WIDTH, SEED_HEIGHT, ANIMID_NO_ANIMATION, shared_from_this(), WALLNUT_COOLDOWN);
@@ -159,7 +159,7 @@ void GameWorld::WallNutAdd(int x, int y) {
 void GameWorld::CherryBombAdd(int x, int y) {
   if (m_Sun < SUN_COST_CHERRY_BOMB) return;
   m_Sun -= SUN_COST_CHERRY_BOMB;
-  auto cherryBomb = std::make_shared<CherryBombObject>(IMGID_CHERRY_BOMB, x, y, LAYER_PLANTS, LAWN_GRID_WIDTH, LAWN_GRID_HEIGHT, ANIMID_IDLE_ANIM, shared_from_this());
+  auto cherryBomb = std::make_shared<CherryBombObject>(IMGID_CHERRY_BOMB, x, y, LAYER_PLANTS, LAWN_GRID_WIDTH, LAWN_GRID_HEIGHT, ANIMID_IDLE_ANIM, ObjectType::Plant, shared_from_this());
   m_GameList.push_back(cherryBomb);
   m_PlantTypeChoosingNow = PlantsType::NONE;
   auto cherryMask = std::make_shared<CoolDownMaskObject>(IMGID_COOLDOWN_MASK, FIRST_SEED_COL_CENTER + 3 * SEED_WIDTH, SEED_ROW_CENTER, LAYER_COOLDOWN_MASK, SEED_WIDTH, SEED_HEIGHT, ANIMID_NO_ANIMATION, shared_from_this(), CHERRY_BOMB_COOLDOWN);
@@ -168,7 +168,7 @@ void GameWorld::CherryBombAdd(int x, int y) {
 void GameWorld::RepeaterAdd(int x, int y) {
   if (m_Sun < SUN_COST_REPEATER) return;
   m_Sun -= SUN_COST_REPEATER;
-  auto repeater = std::make_shared<RepeaterObject>(IMGID_REPEATER, x, y, LAYER_PLANTS, LAWN_GRID_WIDTH, LAWN_GRID_HEIGHT, ANIMID_IDLE_ANIM, shared_from_this());
+  auto repeater = std::make_shared<RepeaterObject>(IMGID_REPEATER, x, y, LAYER_PLANTS, LAWN_GRID_WIDTH, LAWN_GRID_HEIGHT, ANIMID_IDLE_ANIM, ObjectType::Plant, shared_from_this());
   m_GameList.push_back(repeater);
   m_PlantTypeChoosingNow = PlantsType::NONE;
   auto repeaterMask = std::make_shared<CoolDownMaskObject>(IMGID_COOLDOWN_MASK, FIRST_SEED_COL_CENTER + 4 * SEED_WIDTH, SEED_ROW_CENTER, LAYER_COOLDOWN_MASK, SEED_WIDTH, SEED_HEIGHT, ANIMID_NO_ANIMATION, shared_from_this(), REPEATER_COOLDOWN);
@@ -177,14 +177,16 @@ void GameWorld::RepeaterAdd(int x, int y) {
 
 void GameWorld::ZombieAdd(ZombieType type, int x, int y){
   if (type == ZombieType::REGULAR){
-    auto zombie = std::make_shared<RegularZombieObject>(ChangeZombieTypeToImageID(type), x, y, LAYER_ZOMBIES, ZOMBIE_WIDTH, ZOMBIE_HEIGHT, ANIMID_WALK_ANIM, shared_from_this(), type, HP_REGULAR_ZOMBIE);
+    auto zombie = std::make_shared<RegularZombieObject>(ChangeZombieTypeToImageID(type), x, y, LAYER_ZOMBIES, ZOMBIE_WIDTH, ZOMBIE_HEIGHT, ANIMID_WALK_ANIM, ObjectType::Zombie, shared_from_this(), type, HP_REGULAR_ZOMBIE);
     m_GameList.push_back(zombie);
   }
   else if (type == ZombieType::BUCKET_HEAD){
-    auto zombie = std::make_shared<BucketHeadZombieObject>(ChangeZombieTypeToImageID(type), x, y, LAYER_ZOMBIES, ZOMBIE_WIDTH, ZOMBIE_HEIGHT, ANIMID_WALK_ANIM, shared_from_this(), type, HP_BUCKET_HEAD_ZOMBIE);
+    auto zombie = std::make_shared<BucketHeadZombieObject>(ChangeZombieTypeToImageID(type), x, y, LAYER_ZOMBIES, ZOMBIE_WIDTH, ZOMBIE_HEIGHT, ANIMID_WALK_ANIM, ObjectType::Zombie, shared_from_this(), type, HP_BUCKET_HEAD_ZOMBIE);
     m_GameList.push_back(zombie);
   }
 }
+
+
 void GameWorld::RemoveGameObject(PlantsType type, int x, int y){
   // YOUR CODE HERE
   if (type == PlantsType::SUN){
@@ -198,7 +200,7 @@ void GameWorld::RemoveGameObject(PlantsType type, int x, int y){
 
   if (type != PlantsType::SHOVEL) return;
   for (auto it = m_GameList.begin(); it != m_GameList.end(); it++) {
-    if ((std::abs(it->get()->GetX() - x) <= it->get()->GetWidth() / 2 ) && (std::abs(it->get()->GetY() - y) <= it->get()->GetHeight() / 2) && (it->get()->GetLayer() == LAYER_PLANTS)){
+    if ((std::abs(it->get()->GetX() - x) <= it->get()->GetWidth() / 2 ) && (std::abs(it->get()->GetY() - y) <= it->get()->GetHeight() / 2) && (it->get()->GetObjectType() == ObjectType::Plant)){
       m_GameList.erase(it);
       break;
     }
@@ -263,7 +265,42 @@ void GameWorld::AttackPlant(int x, int y, int damage){
   }
 }
 
+void AddSunOfPlant(int x, int y){
+  auto sun = std::make_shared<SunOfPlantObject>(IMGID_SUN, x, y, LAYER_SUN, SUN_WIDTH, SUN_HEIGHT, ANIMID_IDLE_ANIM, shared_from_this());
+  m_GameList.push_back(sun);
+}
+
+bool GameWorld::IfTheRowForwardHasZombie(int x, int y){
+  for (auto &gameObject : m_GameList) {
+    if (gameObject->GetObjectType() == ObjectType::Zombie && std::abs(y - gameObject->GetY()) <= 10 && gameObject->GetX() - x >= 0){
+      return true;
+    }
+  }
+  return false;
+}
+
+void GameWorld::AddPea(int x, int y){
+  auto pea = std::make_shared<PeaObject>(IMGID_PEA, x, y, LAYER_PROJECTILES, PEAS_WIDTH, PEAS_HEIGHT, ANIMID_IDLE_ANIM,ObjectType::Pea ,shared_from_this());
+  m_GameList.push_back(pea);
+}
+
+bool GameWorld::CheckAttackZombie(int x, int y){
+  for (auto it = m_GameList.begin(); it != m_GameList.end(); it++) {
+    if ((std::abs(it->get()->GetX() - x) <= LAWN_GRID_WIDTH / 2 ) && (std::abs(it->get()->GetY() - y) <= LAWN_GRID_HEIGHT / 2) && (it->get()->GetObjectType() == ObjectType::Zombie)){
+      it->get()->ChangeStatus(true);
+      return true;
+    }
+  }
+  return false;
+}
 
 
 
+void GameWorld::RemovePea(int x, int y){
+  for (auto it = m_GameList.begin(); it != m_GameList.end(); it++) {
+    if (x > WINDOW_WIDTH && (it->get()->GetObjectType() == ObjectType::Pea)){
+      m_GameList.erase(it);
+    }
+  }
+}
 

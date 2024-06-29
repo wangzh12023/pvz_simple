@@ -27,6 +27,12 @@ add_library(
   SunObject.cpp
   ShovelObject.hpp
   ShovelObject.cpp
+  SunOfNormalObject.hpp
+  SunOfNormalObject.cpp
+  SunOfPlantObject.hpp
+  SunOfPlantObject.cpp
+  PeaObject.hpp
+  PeaObject.cpp
 )
 
 target_link_libraries(

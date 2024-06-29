@@ -46,6 +46,7 @@ enum class KeyCode {
 enum class ObjectType {
   Plant,
   Zombie,
+  Pea,
   Other
 };
 
@@ -172,8 +173,13 @@ const int HP_REGULAR_ZOMBIE = 200;
 const int HP_BUCKET_HEAD_ZOMBIE = 1700;
 const int HP_POLE_VAULTING_ZOMBIE = 700;
 
-const int SUN_FLOWER_GENERATE_TIME = 5
-
+const int SUN_FLOWER_GENERATE_TIME = 5;
+const int PEAS_WIDTH = 28;
+const int PEAS_HEIGHT = 28;
+const int PEAS_SPEED = 8;
+const int PEAS_DAMAGE = 100;
+const int PEAS_COOLDOWN = 3;
+const double PEAS_INTERVAL = 0.1;
 
 
 
