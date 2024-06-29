@@ -209,6 +209,7 @@ CMakeFiles/PvZ.dir/src/main.cpp.obj: D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/ta
   D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/Framework/TextBase.hpp \
   D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/Framework/WorldBase.hpp \
   D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/BackgroundObject.hpp \
+  D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/Bomb.hpp \
   D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/CherryBombObject.hpp \
   D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/CoolDownMaskObject.hpp \
   D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/GameObject.hpp \
@@ -416,6 +417,8 @@ C:/mingw64/include/c++/13.2.0/bits/stl_uninitialized.h:
 C:/mingw64/x86_64-w64-mingw32/include/corecrt_wstdlib.h:
 
 C:/mingw64/include/c++/13.2.0/ostream:
+
+D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/Bomb.hpp:
 
 C:/mingw64/include/c++/13.2.0/bits/locale_classes.tcc:
 

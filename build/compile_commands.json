@@ -624,6 +624,12 @@
   "output": "src/GameObject/CMakeFiles/GameObject.dir/ZombieObject.cpp.obj"
 },
 {
+  "directory": "D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/build/src/GameObject",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/GameObject.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GameObject.dir\\Bomb.cpp.obj -c D:\\Wangzh\\p2\\cs\\skd_courses\\CS100\\HW\\hw8\\tar_1(2)\\src\\GameObject\\Bomb.cpp",
+  "file": "D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/Bomb.cpp",
+  "output": "src/GameObject/CMakeFiles/GameObject.dir/Bomb.cpp.obj"
+},
+{
   "directory": "D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/build/src/GameWorld",
   "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/GameWorld.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GameWorld.dir\\GameWorld.cpp.obj -c D:\\Wangzh\\p2\\cs\\skd_courses\\CS100\\HW\\hw8\\tar_1(2)\\src\\GameWorld\\GameWorld.cpp",
   "file": "D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameWorld/GameWorld.cpp",

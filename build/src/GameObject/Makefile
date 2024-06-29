@@ -198,6 +198,30 @@ BackgroundObject.cpp.s:
 	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build && $(MAKE) $(MAKESILENT) -f src\GameObject\CMakeFiles\GameObject.dir\build.make src/GameObject/CMakeFiles/GameObject.dir/BackgroundObject.cpp.s
 .PHONY : BackgroundObject.cpp.s
 
+Bomb.obj: Bomb.cpp.obj
+.PHONY : Bomb.obj
+
+# target to build an object file
+Bomb.cpp.obj:
+	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build && $(MAKE) $(MAKESILENT) -f src\GameObject\CMakeFiles\GameObject.dir\build.make src/GameObject/CMakeFiles/GameObject.dir/Bomb.cpp.obj
+.PHONY : Bomb.cpp.obj
+
+Bomb.i: Bomb.cpp.i
+.PHONY : Bomb.i
+
+# target to preprocess a source file
+Bomb.cpp.i:
+	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build && $(MAKE) $(MAKESILENT) -f src\GameObject\CMakeFiles\GameObject.dir\build.make src/GameObject/CMakeFiles/GameObject.dir/Bomb.cpp.i
+.PHONY : Bomb.cpp.i
+
+Bomb.s: Bomb.cpp.s
+.PHONY : Bomb.s
+
+# target to generate assembly for a file
+Bomb.cpp.s:
+	cd /d D:\Wangzh\p2\cs\skd_courses\CS100\HW\hw8\tar_1(2)\build && $(MAKE) $(MAKESILENT) -f src\GameObject\CMakeFiles\GameObject.dir\build.make src/GameObject/CMakeFiles/GameObject.dir/Bomb.cpp.s
+.PHONY : Bomb.cpp.s
+
 CherryBombObject.obj: CherryBombObject.cpp.obj
 .PHONY : CherryBombObject.obj
 
@@ -598,6 +622,9 @@ help:
 	@echo ... BackgroundObject.obj
 	@echo ... BackgroundObject.i
 	@echo ... BackgroundObject.s
+	@echo ... Bomb.obj
+	@echo ... Bomb.i
+	@echo ... Bomb.s
 	@echo ... CherryBombObject.obj
 	@echo ... CherryBombObject.i
 	@echo ... CherryBombObject.s

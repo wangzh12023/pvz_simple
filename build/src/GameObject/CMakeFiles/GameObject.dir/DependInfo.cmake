@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/BackgroundObject.cpp" "src/GameObject/CMakeFiles/GameObject.dir/BackgroundObject.cpp.obj" "gcc" "src/GameObject/CMakeFiles/GameObject.dir/BackgroundObject.cpp.obj.d"
+  "D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/Bomb.cpp" "src/GameObject/CMakeFiles/GameObject.dir/Bomb.cpp.obj" "gcc" "src/GameObject/CMakeFiles/GameObject.dir/Bomb.cpp.obj.d"
   "D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/CherryBombObject.cpp" "src/GameObject/CMakeFiles/GameObject.dir/CherryBombObject.cpp.obj" "gcc" "src/GameObject/CMakeFiles/GameObject.dir/CherryBombObject.cpp.obj.d"
   "D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/CoolDownMaskObject.cpp" "src/GameObject/CMakeFiles/GameObject.dir/CoolDownMaskObject.cpp.obj" "gcc" "src/GameObject/CMakeFiles/GameObject.dir/CoolDownMaskObject.cpp.obj.d"
   "D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/GameObject.cpp" "src/GameObject/CMakeFiles/GameObject.dir/GameObject.cpp.obj" "gcc" "src/GameObject/CMakeFiles/GameObject.dir/GameObject.cpp.obj.d"

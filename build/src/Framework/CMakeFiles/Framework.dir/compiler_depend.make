@@ -1646,6 +1646,7 @@ src/Framework/CMakeFiles/Framework.dir/__/GameWorld/GameWorld.cpp.obj: D:/Wangzh
   D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/Framework/TextBase.hpp \
   D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/Framework/WorldBase.hpp \
   D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/BackgroundObject.hpp \
+  D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/Bomb.hpp \
   D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/CherryBombObject.hpp \
   D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/CoolDownMaskObject.hpp \
   D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/GameObject.hpp \
@@ -2104,6 +2105,8 @@ C:/mingw64/include/c++/13.2.0/list:
 C:/mingw64/include/c++/13.2.0/bits/cxxabi_forced.h:
 
 C:/mingw64/include/c++/13.2.0/cctype:
+
+D:/Wangzh/p2/cs/skd_courses/CS100/HW/hw8/tar_1(2)/src/GameObject/Bomb.hpp:
 
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/amxcomplexintrin.h:
 

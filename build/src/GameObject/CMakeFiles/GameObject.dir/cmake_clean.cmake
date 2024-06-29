@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "../../lib/libGameObject.pdb"
   "CMakeFiles/GameObject.dir/BackgroundObject.cpp.obj"
   "CMakeFiles/GameObject.dir/BackgroundObject.cpp.obj.d"
+  "CMakeFiles/GameObject.dir/Bomb.cpp.obj"
+  "CMakeFiles/GameObject.dir/Bomb.cpp.obj.d"
   "CMakeFiles/GameObject.dir/CherryBombObject.cpp.obj"
   "CMakeFiles/GameObject.dir/CherryBombObject.cpp.obj.d"
   "CMakeFiles/GameObject.dir/CoolDownMaskObject.cpp.obj"

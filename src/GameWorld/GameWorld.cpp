@@ -25,7 +25,7 @@ void GameWorld::Init() {
   auto m_SunText = std::make_shared<TextBase>(SUN_TEXT_X, SUN_TEXT_Y, TextType::SUN, std::to_string(SUN_START), 0,0,0);
   auto m_wave = std::make_shared<TextBase>(WAVE_TEXT_X, WAVE_TEXT_Y, TextType::WAVE, "wave : " + std::to_string(m_ZombieWave), 0,0,0);
 
-
+  
 
   m_GameList.push_back(m_Background);
   m_GameList.push_back(m_SunFlowerSeed);
@@ -199,6 +199,7 @@ void GameWorld::RemoveGameObject(PlantsType type, int x, int y){
   }
 
   if (type != PlantsType::SHOVEL) return;
+
   for (auto it = m_GameList.begin(); it != m_GameList.end(); it++) {
     if ((std::abs(it->get()->GetX() - x) <= it->get()->GetWidth() / 2 ) && (std::abs(it->get()->GetY() - y) <= it->get()->GetHeight() / 2) && (it->get()->GetObjectType() == ObjectType::Plant)){
       m_GameList.erase(it);
@@ -280,7 +281,7 @@ bool GameWorld::IfTheRowForwardHasZombie(int x, int y){
 }
 
 void GameWorld::AddPea(int x, int y){
-  auto pea = std::make_shared<PeaObject>(IMGID_PEA, x, y, LAYER_PROJECTILES, PEAS_WIDTH, PEAS_HEIGHT, ANIMID_IDLE_ANIM,ObjectType::Pea ,shared_from_this());
+  auto pea = std::make_shared<PeaObject>(IMGID_PEA, x, y, LAYER_PROJECTILES, PEAS_WIDTH, PEAS_HEIGHT, ANIMID_NO_ANIMATION, ObjectType::Pea ,shared_from_this());
   m_GameList.push_back(pea);
 }
 
@@ -298,9 +299,50 @@ bool GameWorld::CheckAttackZombie(int x, int y){
 
 void GameWorld::RemovePea(int x, int y){
   for (auto it = m_GameList.begin(); it != m_GameList.end(); it++) {
-    if (x > WINDOW_WIDTH && (it->get()->GetObjectType() == ObjectType::Pea)){
+    if ((std::abs(it->get()->GetX() - x) <= LAWN_GRID_WIDTH / 2 ) && (std::abs(it->get()->GetY() - y) <= LAWN_GRID_HEIGHT / 2) && (it->get()->GetObjectType() == ObjectType::Pea )){
       m_GameList.erase(it);
     }
   }
 }
 
+void GameWorld::CherryBombAttack(int x, int y){
+  for (auto it = m_GameList.begin(); it != m_GameList.end(); it++) {
+    if (std::abs(it->get()->GetX() - x) <= CHERRY_BOMB_RADIUS && std::abs(it->get()->GetY() - y) <= CHERRY_BOMB_RADIUS && it->get()->GetObjectType() == ObjectType::Zombie){
+      RemoveZombie(it->get()->GetX(), it->get()->GetY());
+    }
+  }
+}
+
+void GameWorld::AddBomb(int x, int y){
+  auto bomb = std::make_shared<Bomb>(IMGID_EXPLOSION, x, y, LAYER_PROJECTILES, CHERRY_BOMB_RADIUS, CHERRY_BOMB_RADIUS, ANIMID_NO_ANIMATION, ObjectType::Bomb, shared_from_this());
+  m_GameList.push_back(bomb);
+
+}
+
+void GameWorld::RemoveZombie(int x, int y){
+  for (auto it = m_GameList.begin(); it != m_GameList.end(); it++) {
+    if ((std::abs(it->get()->GetX() - x) <= LAWN_GRID_WIDTH / 2 ) && (std::abs(it->get()->GetY() - y) <= LAWN_GRID_HEIGHT / 2) && (it->get()->GetObjectType() == ObjectType::Zombie)){
+      m_GameList.erase(it);
+      break;
+    }
+  }
+}
+
+void GameWorld::RemoveBomb(int x, int y){
+  for (auto it = m_GameList.begin(); it != m_GameList.end(); it++) {
+    if ((std::abs(it->get()->GetX() - x) <= CHERRY_BOMB_RADIUS / 2 ) && (std::abs(it->get()->GetY() - y) <= CHERRY_BOMB_RADIUS / 2) && (it->get()->GetObjectType() == ObjectType::Bomb)){
+      m_GameList.erase(it);
+
+      break;
+    }
+  }
+}
+
+void GameWorld::RemoveCherryBomb(int x, int y){
+  for (auto it = m_GameList.begin(); it != m_GameList.end(); it++) {
+    if ((std::abs(it->get()->GetX() - x) <= LAWN_GRID_WIDTH / 2 ) && (std::abs(it->get()->GetY() - y) <= LAWN_GRID_HEIGHT / 2) && (it->get()->GetObjectType() == ObjectType::Plant)){
+      m_GameList.erase(it);
+      break;
+    }
+  }
+}

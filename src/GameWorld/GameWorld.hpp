@@ -29,6 +29,7 @@
 #include "../GameObject/SunOfPlantObject.hpp"
 #include "../GameObject/SunOfNormalObject.hpp"
 #include "../GameObject/PeaObject.hpp"
+#include "../GameObject/Bomb.hpp"
 
 class GameWorld : public WorldBase, public std::enable_shared_from_this<GameWorld> {
 public:
@@ -65,9 +66,14 @@ public:
   bool CheckAttackZombie(int x, int y);
   void RemoveZombie(int x, int y);
   void RemovePea(int x, int y);
+  void CherryBombAttack(int x, int y);
+  void AddBomb(int x, int y);
+  void RemoveBomb(int x, int y);
+  void RemoveCherryBomb(int x, int y);
 private: 
 std::list<std::shared_ptr<GameObject>> m_GameList;
 std::list<std::shared_ptr<TextBase>> m_TextList;
+std::shared_ptr<TextBase> m_lastWave;
 
 PlantsType m_PlantTypeChoosingNow = PlantsType::NONE;
 int m_Sun = SUN_START;

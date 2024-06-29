@@ -37,6 +37,8 @@ add_library(
   CoolDownMaskObject.cpp
   ZombieObject.hpp
   ZombieObject.cpp
+  Bomb.hpp
+  Bomb.cpp
 )
 
 target_link_libraries(

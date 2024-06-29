@@ -47,6 +47,7 @@ enum class ObjectType {
   Plant,
   Zombie,
   Pea,
+  Bomb,
   Other
 };
 
@@ -64,7 +65,8 @@ enum class PlantsType {
 };
 enum class TextType{
   WAVE,
-  SUN
+  SUN,
+  LAST_WAVE
 };
 
 enum class ZombieType {
@@ -178,9 +180,13 @@ const int PEAS_WIDTH = 28;
 const int PEAS_HEIGHT = 28;
 const int PEAS_SPEED = 8;
 const int PEAS_DAMAGE = 100;
-const int PEAS_COOLDOWN = 3;
-const double PEAS_INTERVAL = 0.1;
+const int PEAS_COOLDOWN = 2;
+const double PEAS_INTERVAL = 0.5;
 
+const double CHERRY_BOMB_EXPLOSION_TIME = 0.5;
+const int CHERRY_BOMB_RADIUS = 2 * LAWN_GRID_WIDTH;
+const double CHERRY_BOMB_TIME = 0.5;
+const int CHERRY_BOMB_DAMAGE = 10000;
 
 
 #endif // !UTILS_HPP__

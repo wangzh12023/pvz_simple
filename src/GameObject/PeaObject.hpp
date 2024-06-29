@@ -11,7 +11,7 @@ public:
   virtual ~PeaObject(){};
 
   void Update() override;
-  void OnClick() override;
+  void OnClick() override{};
 
 private:
   pGameWorld m_gameWorld;
