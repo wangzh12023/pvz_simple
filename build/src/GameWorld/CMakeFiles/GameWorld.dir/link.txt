@@ -1,2 +1,0 @@
-C:\mingw64\bin\ar.exe qc ..\..\lib\libGameWorld.a CMakeFiles/GameWorld.dir/GameWorld.cpp.obj
-C:\mingw64\bin\ranlib.exe ..\..\lib\libGameWorld.a
